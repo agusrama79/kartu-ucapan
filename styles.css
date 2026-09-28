@@ -15645,6 +15645,8 @@ body.recipient-mode .envelope-modal-overlay {
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(254, 205, 211, 0.85);
   animation: popScale 350ms cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 @keyframes popScale {
@@ -15684,6 +15686,36 @@ body.recipient-mode .envelope-modal-overlay {
   line-height: 1.6;
   color: #4b5563;
   margin: 0 0 var(--sp-6);
+}
+
+.celebration-popup-box .btn,
+#btn-close-celebration-popup {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.45;
+  height: auto;
+  min-height: 48px;
+  padding: var(--sp-3) var(--sp-5);
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .celebration-popup-box {
+    padding: var(--sp-6) var(--sp-4);
+  }
+
+  .celebration-popup-box .btn,
+  #btn-close-celebration-popup {
+    font-size: 0.875rem;
+    padding: var(--sp-3) var(--sp-3);
+  }
 }
 
 /* Display Rules for Dramatic Preview Mode (Studio Editor Preview Only) */
