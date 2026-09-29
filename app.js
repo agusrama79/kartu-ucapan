@@ -5020,6 +5020,9 @@
   }
 
   function getCleanBaseUrl() {
+    if (window.location.hostname === "karsakartu.my.id" || window.location.hostname.endsWith(".karsakartu.my.id")) {
+      return "https://karsakartu.my.id/";
+    }
     let url = window.location.origin + window.location.pathname;
     url = url.replace(/\/index\.html$/i, "");
     return url.replace(/\/+$/, "") + "/";
@@ -5117,7 +5120,7 @@
 
     const baseUrl = getCleanBaseUrl();
 
-    // 1. Coba simpan ke Backend Server Origin Saat Ini
+    // 1. Simpan ke Backend Server Lokal Komputer (Origin Saat Ini)
     try {
       const response = await fetch("/api/card/save", {
         method: "POST",
@@ -5127,31 +5130,33 @@
       if (response.ok) {
         const res = await response.json();
         if (res.success && res.id) {
-          cachedShortUrl = `${baseUrl}?c=${res.id}`;
+          cachedShortUrl = (res.url && res.url.includes("karsakartu.my.id")) ? res.url : `${baseUrl}?c=${res.id}`;
           return cachedShortUrl;
         }
       }
     } catch (err) {
-      console.warn("Gagal menyimpan ke server origin, mencoba cloud endpoint:", err);
+      console.warn("Gagal menyimpan ke server origin, mencoba remote domain:", err);
     }
 
-    // 2. Coba simpan ke Public Central Cloud API (pagram.my.id) untuk deployment GitHub Pages / Domain Statis
-    try {
-      const centralRes = await fetch("https://pagram.my.id/api/card/save", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ card: payload }),
-        mode: "cors"
-      });
-      if (centralRes.ok) {
-        const res = await centralRes.json();
-        if (res.success && res.id) {
-          cachedShortUrl = `${baseUrl}?c=${res.id}`;
-          return cachedShortUrl;
+    // 2. Jika tidak diakses dari domain resmi karsakartu.my.id (misal localhost/IP), simpan ke karsakartu.my.id
+    if (baseUrl !== "https://karsakartu.my.id/") {
+      try {
+        const karsaRes = await fetch("https://karsakartu.my.id/api/card/save", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ card: payload }),
+          mode: "cors"
+        });
+        if (karsaRes.ok) {
+          const res = await karsaRes.json();
+          if (res.success && res.id) {
+            cachedShortUrl = `https://karsakartu.my.id/?c=${res.id}`;
+            return cachedShortUrl;
+          }
         }
+      } catch (err) {
+        console.warn("Gagal simpan ke karsakartu.my.id API:", err);
       }
-    } catch (err) {
-      console.warn("Gagal simpan ke central cloud API:", err);
     }
 
     // 3. Fallback Client-Side Compact Delta Encoding (Super Ringkas, Tahan Potongan WhatsApp & Tanpa Server)
@@ -5224,16 +5229,16 @@
             }
           }
         } else {
-          // B. Tautan ID server: coba lokal, cards file, dan central API
+          // B. Tautan ID server: coba lokal origin, static cards file, dan domain resmi karsakartu.my.id
           const cleanId = shortId.replace(/[^a-zA-Z0-9-_]/g, "");
           if (cleanId) {
-            // 1. Coba API lokal
+            // 1. Coba API origin saat ini
             try {
               const res = await fetch(`/api/card?id=${cleanId}`);
               if (res.ok) data = await res.json();
             } catch (e) {}
 
-            // 2. Coba static file lokal
+            // 2. Coba static file di origin saat ini
             if (!data) {
               try {
                 const res2 = await fetch(`cards/${cleanId}.json`);
@@ -5241,11 +5246,19 @@
               } catch (e) {}
             }
 
-            // 3. Coba remote central API (pagram.my.id) untuk deployment GitHub Pages / Domain Statis
+            // 3. Coba remote API karsakartu.my.id jika diakses dari origin lain
             if (!data) {
               try {
-                const res3 = await fetch(`https://pagram.my.id/api/card?id=${cleanId}`, { mode: "cors" });
+                const res3 = await fetch(`https://karsakartu.my.id/api/card?id=${cleanId}`, { mode: "cors" });
                 if (res3.ok) data = await res3.json();
+              } catch (e) {}
+            }
+
+            // 4. Coba static file remote di karsakartu.my.id
+            if (!data) {
+              try {
+                const res4 = await fetch(`https://karsakartu.my.id/cards/${cleanId}.json`, { mode: "cors" });
+                if (res4.ok) data = await res4.json();
               } catch (e) {}
             }
           }
@@ -7830,6 +7843,15 @@
   // 13. Application Initialization
   // =========================================================================
   async function init() {
+    // 0. Normalisasi Pathname untuk Domain Resmi karsakartu.my.id (Hilangkan subfolder /kartu-ucapan/ dari URL browser)
+    if ((window.location.hostname === "karsakartu.my.id" || window.location.hostname.endsWith(".karsakartu.my.id")) &&
+        (window.location.pathname.startsWith("/kartu-ucapan") || window.location.pathname.startsWith("/karsakartu"))) {
+      const cleanPath = "/" + window.location.search + window.location.hash;
+      try {
+        window.history.replaceState(null, "", cleanPath);
+      } catch (e) {}
+    }
+
     // 1. Enforce Clean Warm Light Theme (Strictly No Dark Mode)
     document.documentElement.setAttribute("data-theme", "light");
     try {
