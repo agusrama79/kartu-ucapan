@@ -917,7 +917,7 @@
       recipient: "Echa Tersayang",
       title: "Happy Birthday",
       milestone: "Spesial Untuk Sahabat Terbaik 🌸",
-      message: "Di hari yang begitu istimewa ini, terima kasih sudah hadir di dunia dan menjadi sahabat yang luar biasa buat aku. Terima kasih untuk setiap tawa lepas kita, sesi curhat larut malam, dan saling menguatkan di kala rapuh. Semoga Allah selalu melimpahkan kesehatan, kebahagiaan tanpa akhir, kelapangan rezeki, dan memudahkan semua impian yang sedang kamu perjuangkan! Tetaplah jadi Echa yang ceria, rendah hati, dan bersinar apa adanya 💕",
+      message: "Di hari yang begitu istimewa ini, terima kasih sudah hadir di dunia dan menjadi sahabat yang luar biasa buat aku. Terima kasih untuk setiap tawa lepas kita, sesi curhat larut malam, dan saling menguatkan di kala rapuh. Semoga senantiasa dilimpahkan kesehatan, kebahagiaan tanpa akhir, kelapangan rezeki, dan kemudahan dalam meraih semua impian yang sedang kamu perjuangkan! Tetaplah jadi Echa yang ceria, rendah hati, dan bersinar apa adanya 💕",
       sender: "Dari: Sahabat Terbaikmu 💕",
       date: "2026-10-19",
       time: "15:00 WIB",
@@ -1781,7 +1781,1507 @@
         "font": "font-lora",
         "tone": "rose",
         "role": "greeting"
-  }
+  },
+    "cyber-hologram-party": {
+      "template": "cyber-hologram-party",
+      "recipient": "Kenzo 'Apex' Wirawan",
+      "title": "Cyber Neon Hologram & Glitch Synth",
+      "milestone": "Leveling Up to 18th Milestone in Cyber City",
+      "message": "Selamat datang di distrik neon masa depan! Kami mengundangmu merayakan Sweet 18 Kenzo dalam pesta berbalut lampu hologram bercahaya, dentuman synthwave retro-futuristik, dan arcade simulator tercanggih.",
+      "sender": "The Cyber Syndicate: Ayah, Ibu & Kawan-kawan",
+      "date": "2026-11-20",
+      "time": "19:00 WIB",
+      "location": "Neo Metropolis Lounge & VR Arcade, Senayan, Jakarta",
+      "rsvp": "Dress code: Cyber Neon / Metallic Glow. RSVP via WhatsApp.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "safari-jungle-carnival": {
+      "template": "safari-jungle-carnival",
+      "recipient": "Adik Gibran Ravindra",
+      "title": "Safari Wild Jungle & Golden Lion",
+      "milestone": "Ulang Tahun ke-5 Sang Penjelajah Rimba Cilik",
+      "message": "Roaaar! Sang raja rimba cilik merayakan ulang tahun ke-5! Kenakan topi safarimu, bawa teropong petualang, dan bersiaplah menyusuri jejak satwa liar, menaiki jeep mini keliling kebun binatang, dan berpesta es krim kelapa tropis!",
+      "sender": "Tim Ranger Safari: Ayah Dimas & Bunda Laras",
+      "date": "2026-11-15",
+      "time": "14:30 WIB",
+      "location": "Savanna Green Park & Clubhouse, Bogor",
+      "rsvp": "Bawa semangat petualangmu! Konfirmasi via WhatsApp.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "magic-wizard-academy": {
+      "template": "magic-wizard-academy",
+      "recipient": "Lady Aurora Valerie",
+      "title": "Kastil Sihir & Golden Snitch",
+      "milestone": "Menapaki Babak Sihir Usia 13 Tahun di Aula Keajaiban",
+      "message": "Surat penerimaan resmi telah tiba! Kami mengundang seluruh penyihir muda untuk menghadiri perjamuan agung ulang tahun Aurora. Nikmati butterscotch soda, kompetisi duel mantra bersahabat, dan pesta kembang api bercahaya ajaib.",
+      "sender": "Dewan Sihir Keluarga Bpk. Adrian & Ibu Sofia",
+      "date": "2026-11-22",
+      "time": "17:00 WIB",
+      "location": "The Secret Vault & Chamber Lounge, Dago, Bandung",
+      "rsvp": "Wajib kenakan jubah atau atribut sihir andalanmu.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "candy-wonderland-pop": {
+      "template": "candy-wonderland-pop",
+      "recipient": "Princess Naura Adzkia",
+      "title": "Pesta Manisan Permen & Lolipop Pelangi",
+      "milestone": "Perayaan Ulang Tahun ke-7 Paling Manis & Riang",
+      "message": "Selamat datang di negeri gula-gula paling manis! Ayo nikmati air mancur cokelat lezat, menghias cupcake bertabur meses pelangi, menangkap gelembung permen kapas, dan bergembira bersama di hari spesial Naura.",
+      "sender": "Dengan Manis: Ayah Farhan & Bunda Cempaka",
+      "date": "2026-11-08",
+      "time": "15:00 WIB",
+      "location": "Sweet Sugar Playland & Café, Kelapa Gading, Jakarta",
+      "rsvp": "Dress code: Pastel Sweet. RSVP via WhatsApp.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "pirate-treasure-island": {
+      "template": "pirate-treasure-island",
+      "recipient": "Kapten Kenrick Pratama",
+      "title": "Petualangan Bajak Laut & Pulau Emas",
+      "milestone": "Menaklukkan Samudra Usia ke-9 dengan Gagah Berani",
+      "message": "Ahoy kawan kelasi! Kapten Kenrick memanggil kru terbaik untuk berlayar menuju Pulau Harta Karun! Bersiaplah berburu peti emas, bertempur balon air di dek kapal bajak laut, dan berpesta ayam panggang ala pelaut sejati.",
+      "sender": "Komando Armada: Ayah Rian & Bunda Marissa",
+      "date": "2026-11-29",
+      "time": "14:00 WIB",
+      "location": "Pirate Cove Beachfront Park, Ancol, Jakarta",
+      "rsvp": "Angkat sauh dan konfirmasi kehadiranmu sebelum 25 November.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "supercar-speed-grand-prix": {
+      "template": "supercar-speed-grand-prix",
+      "recipient": "Pembalap Rayhan Al-Fatih",
+      "title": "Grand Prix Supercar & Bendera Balap",
+      "milestone": "Menembus Garis Finis Putaran Usia ke-10 dengan Gemilang",
+      "message": "Start your engines! Sirkuit Grand Prix ke-10 Rayhan resmi dibuka. Bergabunglah dalam adu kecepatan balap go-kart sirkuit mini, pit stop challenge ganti ban tercepat, dan pesta burger piala kemenangan.",
+      "sender": "Pit Crew: Keluarga Bpk. Taufik & Ibu Anita",
+      "date": "2026-12-05",
+      "time": "13:00 WIB",
+      "location": "Speed Karting Grand Arena, BSD Tangerang",
+      "rsvp": "Kenakan jaket balap kerenmu! RSVP via WhatsApp.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "space-alien-ufo-odyssey": {
+      "template": "space-alien-ufo-odyssey",
+      "recipient": "Penjelajah Galaksi Gio",
+      "title": "UFO Antariksa & Sahabat Alien Ceria",
+      "milestone": "Misi Penjelajahan Luar Angkasa Tahun ke-8",
+      "message": "Beep boop! Sinyal transmisi luar angkasa telah ditangkap! Piring terbang UFO bersahabat mendarat untuk merayakan hari ulang tahun Gio. Ayo main laser tag kosmik, berburu slime galaksi neon, dan menyantap pizza kawah bulan!",
+      "sender": "Komando Galaksi: Ayah Danang & Bunda Wulan",
+      "date": "2026-11-21",
+      "time": "15:30 WIB",
+      "location": "Starlight Laser Tag Dome, Gandaria City, Jakarta",
+      "rsvp": "Aktifkan komunikator antariksamu dan konfirmasi kehadiran.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "mermaid-underwater-coral": {
+      "template": "mermaid-underwater-coral",
+      "recipient": "Princess Thalassa Bella",
+      "title": "Istana Putri Duyung & Mutiara Karang",
+      "milestone": "Menyelami Samudra Indah Usia ke-6 Penuh Pesona",
+      "message": "Di bawah riak gelombang laut biru jernih, putri duyung cilik kami mengundang sahabat tersayang berenang ke istana mutiara! Nikmati pesta teh kerang, rias wajah glitter mutiara ramah anak, dan lagu merdu bawah samudra.",
+      "sender": "Kerajaan Samudra: Ayah Bima & Bunda Shinta",
+      "date": "2026-11-14",
+      "time": "14:00 WIB",
+      "location": "Coral Reef Lagoon Club, Ancol Marina, Jakarta",
+      "rsvp": "Pakai pakaian nuansa laut biru / toska. RSVP WhatsApp.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "super-chef-cooking-gala": {
+      "template": "super-chef-cooking-gala",
+      "recipient": "Chef Cilik Darren Aditya",
+      "title": "Dapur Cilik Masterchef & Pesta Kuliner",
+      "milestone": "Meracik Resep Bahagia di Ulang Tahun ke-8",
+      "message": "Celemek sudah terpasang, resep rahasia siap dipraktikkan! Bergabunglah dalam kelas memasak seru membuat pizza mini dengan topping kreasimu sendiri, memanggang biskuit renyah, dan meniup lilin kue tart cokelat lezat!",
+      "sender": "Dapur Bahagia: Ayah Gunawan & Ibu Vina",
+      "date": "2026-11-07",
+      "time": "11:00 WIB",
+      "location": "Young Chefs Academy & Kitchen Studio, Kemang, Jakarta",
+      "rsvp": "Celemek dan topi koki telah disiapkan! RSVP sebelum 4 November.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "golden-balloon-fiesta": {
+      "template": "golden-balloon-fiesta",
+      "recipient": "Natasha Felicia",
+      "title": "Semarak Balon Foil Emas & Hujan Confetti",
+      "milestone": "Milestone ke-21 Penuh Kilau Emas & Prestasi",
+      "message": "Dua puluh satu tahun menapaki perjalanan hidup penuh senyum gemilang. Mari rayakan malam istimewa ini di bawah rimbunnya ribuan balon foil emas melayang, hujan konfeti berkilau, dan alunan lagu pop ceria pengiring malam!",
+      "sender": "Bersama Kasih: Keluarga & Rekan Natasha",
+      "date": "2026-12-12",
+      "time": "19:30 WIB",
+      "location": "Starlight Ballroom & Sky Terrace, Kuningan, Jakarta",
+      "rsvp": "Dress code: Black & Gold Glamour. RSVP via WhatsApp.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "aurora-boreal-nordic-love": {
+      "template": "aurora-boreal-nordic-love",
+      "recipient": "Belahan Jiwaku, Annisa",
+      "title": "Romansa Aurora Nordik & Langit Arktik",
+      "milestone": "Tujuh Tahun Bersama Menatap Langit Impian Terindah",
+      "message": "Sebagaimana tirai cahaya aurora yang menari abadi di langit utara tanpa pernah pudar keindahannya, begitulah cintaku padamu yang senantiasa menyejukkan sanubari di setiap pergantian musim kehidupan.",
+      "sender": "Suamimu yang Selalu Menyayangimu, Fajar",
+      "date": "2026-11-18",
+      "time": "19:00 WIB",
+      "location": "Glass Igloo Resort & Lounge, Puncak Pas",
+      "rsvp": "Hadirmu adalah pelita terindah dalam hidupku.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "venice-gondola-serenade": {
+      "template": "venice-gondola-serenade",
+      "recipient": "Tercinta Amelia Savitri",
+      "title": "Kidung Cinta Gondola Venesia",
+      "milestone": "Satu Dekade Merajut Kasih di Atas Riak Bahagia",
+      "message": "Sepuluh tahun mengayuh bahtera rumah tangga, melewati lorong-lorong takdir yang berliku, namun selalu bermuara pada pelukan hangatmu. Terima kasih atas ketulusan yang tak pernah lekang oleh waktu.",
+      "sender": "Dengan Seluruh Jiwaku, Randy",
+      "date": "2026-11-25",
+      "time": "18:30 WIB",
+      "location": "Ristorante Canaletto Waterfront, Senayan, Jakarta",
+      "rsvp": "Reservasi meja privat senja untuk dua insan terkasih.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "autumn-maple-whisper": {
+      "template": "autumn-maple-whisper",
+      "recipient": "Dinda Kirana",
+      "title": "Bisikan Daun Maple Musim Gugur",
+      "milestone": "Lima Tahun Melangkah Bersama di Jalanan Penuh Cerita",
+      "message": "Seperti warna jingga dedaunan maple yang mempercantik bumi sebelum musim dingin tiba, kehadiranmu senantiasa memberi kehangatan tiada tara dalam setiap langkah perjalanan hidupku.",
+      "sender": "Dari: Ilham Prasetyo",
+      "date": "2026-10-28",
+      "time": "16:30 WIB",
+      "location": "Pine Hill Forest Pavilion, Lembang, Bandung",
+      "rsvp": "Bersulang untuk cinta yang tak pernah luntur.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "diamond-forever-jubilee": {
+      "template": "diamond-forever-jubilee",
+      "recipient": "Oma & Opa Tercinta: Bpk. & Ibu Hadiwijaya",
+      "title": "Kilau Berlian Abadi 60 Tahun Cinta",
+      "milestone": "Enam Puluh Tahun Mengarungi Samudra Kasih Sejati",
+      "message": "Enam puluh tahun bukan sekadar rentang masa, melainkan bukti keteguhan cinta sejati yang berkilau layaknya berlian abadi. Doa kami seluruh anak, cucu, dan cicit mengalir deras menyertai kebahagiaan Oma dan Opa.",
+      "sender": "Keluarga Besar Anak, Cucu & Cicit Hadiwijaya",
+      "date": "2026-11-28",
+      "time": "18:00 WIB",
+      "location": "Grand Crystal Ballroom, Hotel Indonesia Kempinski",
+      "rsvp": "Mohon doa restu untuk kesehatan dan kebahagiaan beliau.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "santorini-sunset-bliss": {
+      "template": "santorini-sunset-bliss",
+      "recipient": "Istriku Tersayang, Nabila",
+      "title": "Senja Kubah Biru Santorini",
+      "milestone": "Ulang Tahun Pernikahan ke-4 di Bawah Lembayung Senja",
+      "message": "Memandang laut lepas bersamamu selalu mengingatkanku bahwa cinta kita seluas samudra, setenang angin sore di tebing kapur Santorini. Terima kasih telah menjadikan setiap rumah kita penuh tawa damai.",
+      "sender": "Suamimu, Reza Pratama",
+      "date": "2026-10-15",
+      "time": "17:30 WIB",
+      "location": "Cliffview Sunset Deck & Bistro, Uluwatu, Bali",
+      "rsvp": "Untuk cinta kita yang abadi melintasi cakrawala.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "moonlight-lake-swan": {
+      "template": "moonlight-lake-swan",
+      "recipient": "Nadia Kusuma",
+      "title": "Angsa Putih Danau Rembulan",
+      "milestone": "Tiga Tahun Janji Suci yang Senantiasa Bersemi Indah",
+      "message": "Seperti sepasang angsa putih yang berenang beriringan di atas telaga diterangi cahaya purnama lembut, hati ini tak akan pernah berpaling. Bersamamu, hidup adalah simfoni ketenangan yang terindah.",
+      "sender": "Dengan Tulus, Bramantyo",
+      "date": "2026-11-12",
+      "time": "19:00 WIB",
+      "location": "Serenity Lakefront Pavilion, Rancamaya, Bogor",
+      "rsvp": "Terima kasih atas cinta yang begitu murni.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "tuscany-vineyard-romance": {
+      "template": "tuscany-vineyard-romance",
+      "recipient": "Suami Terbaikku, Marcel",
+      "title": "Kebun Anggur Tuscany & Chianti",
+      "milestone": "Dua Belas Tahun Kebersamaan yang Semakin Manis",
+      "message": "Ibarat anggur terbaik yang kian matang kian berharga dan harum cita rasanya, demikian pula cinta kita setelah 12 tahun berbagi duka dan suka. Bersulang untuk cinta kita yang tiada tandingannya!",
+      "sender": "Istrimu yang Berbahagia, Clara",
+      "date": "2026-10-24",
+      "time": "18:30 WIB",
+      "location": "The Cellar Vineyard & Grill, Senopati, Jakarta",
+      "rsvp": "Cheers to our eternal love!",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "stargazing-celestial-dome": {
+      "template": "stargazing-celestial-dome",
+      "recipient": "Kekasih Hati, Dania",
+      "title": "Kubah Observatorium Bintang Takdir",
+      "milestone": "Enam Musim Mengorbit di Pusat Hatiku",
+      "message": "Dari bermiliar-miliar bintang di galaksi semesta, gravitasi takdir menuntun hatiku tepat pada tatap matamu. Selamat hari jadi cinta kita, semoga konstelasi bahagia senantiasa memayungi jalan kita.",
+      "sender": "Dari: Raka Aditya",
+      "date": "2026-11-19",
+      "time": "20:00 WIB",
+      "location": "Starlight Hilltop Observatory, Cisarua, Bogor",
+      "rsvp": "Bintang-bintang malam ini bersinar hanya untukmu.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "ruby-40th-anniversary": {
+      "template": "ruby-40th-anniversary",
+      "recipient": "Ayahanda & Ibunda Tercinta",
+      "title": "Pesona Ruby Merah Delima 40 Tahun",
+      "milestone": "Empat Puluh Tahun Ikrar Suci Cinta Sejati",
+      "message": "Kilau merah delima melambangkan kobaran kasih yang tak pernah padam selama empat dasawarsa. Terima kasih telah menjadi teladan cinta tanpa pamrih dan bahtera keluarga yang kokoh bagi kami anak-anakmu.",
+      "sender": "Sembah Bakti Anak-Anak & Menantu Tercinta",
+      "date": "2026-12-06",
+      "time": "18:30 WIB",
+      "location": "Ruby Ballroom, The Dharmawangsa, Jakarta",
+      "rsvp": "Doa tulus kami semoga Ayah dan Ibu senantiasa diberkahi kesehatan.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "casablanca-mon-amour": {
+      "template": "casablanca-mon-amour",
+      "recipient": "Mon Amour, Karina",
+      "title": "Casablanca Retro Palm & Piano",
+      "milestone": "Delapan Tahun Mengukir Cerita Cinta Klasik",
+      "message": "\"Here's looking at you, kid.\" Seperti melodi jazz klasik yang tak pernah usang dimakan zaman, rasa kagum dan cintaku padamu kian mendalam setiap kali kita berdansa di bawah temaram lentera malam.",
+      "sender": "Dari: Yudha Perkasa",
+      "date": "2026-11-06",
+      "time": "19:30 WIB",
+      "location": "Rick's Speakeasy Piano Bar, Menteng, Jakarta Pusat",
+      "rsvp": "Play our song once more tonight.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "aceh-pinto-khop-mahkota": {
+      "template": "aceh-pinto-khop-mahkota",
+      "recipient": "Teuku Fathurrahman & Cut Meutia",
+      "title": "Kemegahan Adat Aceh Pinto Khop",
+      "milestone": "Ikrar Suci Ijab Kabul & Penyatuan Dua Hati",
+      "message": "Bismillahir-Rahmanir-Rahim. Dengan memohon rahmat dan hidayah Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk hadir memberikan doa restu pada pernikahan putra-putri kami tercinta dalam balutan adat Aceh Darussalam.",
+      "sender": "Keluarga Besar Teuku Iskandar & Cut Zahra",
+      "date": "2026-12-19",
+      "time": "09:00 WIB (Akad) & 11:30 WIB (Resepsi)",
+      "location": "Bale Meuseuraya Hall & Grand Ballroom, Banda Aceh",
+      "rsvp": "Konfirmasi kehadiran via tautan resmi keluarga.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "banjar-baamar-alas": {
+      "template": "banjar-baamar-alas",
+      "recipient": "Gusti Rayhan & Putri Mayang Sari",
+      "title": "Mahkota Baamar Alas Banjar Kalimantan",
+      "milestone": "Penyatuan Janji Luhur di Ranah Lambung Mangkurat",
+      "message": "Berhiaskan untaian ronce melati harum dan kemilau mahkota Baamar Alas, kami memohon kehadiran serta doa restu sanak keluarga untuk merestui penyatuan dua insan dalam ikatan suci pernikahan.",
+      "sender": "Sahibul Hajat: Bpk. H. Gusti Arifin & Hj. Rusmini",
+      "date": "2026-11-29",
+      "time": "10:00 WIB",
+      "location": "Mahligai Sultan Suriansyah Grand Hall, Banjarmasin",
+      "rsvp": "RSVP via WhatsApp sebelum 20 November 2026.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "lampung-siger-agung": {
+      "template": "lampung-siger-agung",
+      "recipient": "Raden Bagus Satria & Dian Anggraini",
+      "title": "Kemuliaan Siger Mahkota Lampung",
+      "milestone": "Prosesi Sakral Adat Agung Siger Pengantin Lampung",
+      "message": "Di bawah naungan mahkota Siger emas nan mulia berpadu kain tapis benang perak, kami bersyukur mengundang kerabat handai taulan untuk menyaksikan akad dan resepsi putra-putri kami tercinta.",
+      "sender": "Suttan Mangku Alam & Ratu Intan",
+      "date": "2026-12-13",
+      "time": "10:00 WIB",
+      "location": "Graha Wangsa Convention Center, Bandar Lampung",
+      "rsvp": "Kehadiran Bapak/Ibu adalah suatu kehormatan bagi kami.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "papua-cendrawasih-harmony": {
+      "template": "papua-cendrawasih-harmony",
+      "recipient": "Michaelson Kogoya & Maria Wenda",
+      "title": "Mahkota Cendrawasih & Tenun Etnik",
+      "milestone": "Ikatan Kasih Abadi di Bawah Naungan Langit Papua",
+      "message": "Dari puncak pegunungan hingga pesisir teluk yang damai, kami mengucap syukur kepada Tuhan Yang Maha Pengasih atas persatuan cinta dua insan. Kiranya damai dan sukacita senantiasa menyertai.",
+      "sender": "Keluarga Besar Kogoya & Wenda",
+      "date": "2026-11-21",
+      "time": "13:00 WIT",
+      "location": "Papua Youth Creative Hub & Cultural Hall, Jayapura",
+      "rsvp": "Salam damai dan terima kasih atas kehadiran saudara terkasih.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "cinderella-glass-carriage": {
+      "template": "cinderella-glass-carriage",
+      "recipient": "Pangeran Jonathan & Putri Kimberly",
+      "title": "Kereta Kencana Kristal Cinderella",
+      "milestone": "Kisah Cinta Negeri Dongeng Menuju Pelaminan Abadi",
+      "message": "Once upon a time, two souls found each other across the ballroom floor. Kami mengundang Anda menghadiri malam resepsi bertabur kristal kaca berkilau, tiara perak, dan debu sihir kebahagiaan.",
+      "sender": "With Love: The Henderson & Tanuwidjaja Families",
+      "date": "2026-12-19",
+      "time": "18:30 WIB",
+      "location": "The Glass Palace Ballroom, Senayan, Jakarta",
+      "rsvp": "Dress code: Royal Ballroom Chic. RSVP via WhatsApp.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "gothic-victorian-glamour": {
+      "template": "gothic-victorian-glamour",
+      "recipient": "Sebastian Alexander & Genevieve Laurent",
+      "title": "Victoria Gotik Mawar Hitam & Lilin",
+      "milestone": "Ikrar Cinta Abadi Berselimutkan Keindahan Misterius",
+      "message": "Di antara temaram nyala lilin kandelabra antik dan keharuman mawar marun merekah, dua jiwa mengikat sumpah setia yang tak lekang oleh gelapnya malam maupun teriknya siang.",
+      "sender": "In Devotion: Sebastian & Genevieve",
+      "date": "2026-11-13",
+      "time": "19:00 WIB",
+      "location": "The Gothic Heritage Chapel & Conservatory, Bandung",
+      "rsvp": "Dress code: Noir Velvet / Dark Elegance. RSVP via WhatsApp.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "moroccan-tent-oasis": {
+      "template": "moroccan-tent-oasis",
+      "recipient": "Malik Al-Mansoor & Yasmin Zahira",
+      "title": "Tenda Mewah Maroko Oasis Gurun",
+      "milestone": "Pesta Pernikahan 1001 Malam di Tenda Gurun Berbintang",
+      "message": "Di bawah kubah langit gurun yang bertabur jutaan bintang gemerlap, kami mengundang sahabat terkasih merasakan hangatnya keramahan oasis Maroko, aroma kayu oud semerbak, dan sajian teh mint harum.",
+      "sender": "Keluarga Bpk. Tariq & Ibu Samira",
+      "date": "2026-12-04",
+      "time": "18:00 WIB",
+      "location": "The Royal Desert Tent & Garden Oasis, Sentul, Bogor",
+      "rsvp": "Dress code: Arabian Chic / Warm Ochre. RSVP WhatsApp.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "zen-shinto-bamboo-wedding": {
+      "template": "zen-shinto-bamboo-wedding",
+      "recipient": "Kenji Takahashi & Meisya Wardani",
+      "title": "Kuil Zen Jepang & Ranting Bambu Sakral",
+      "milestone": "Ikrar Janji Suci Pernikahan dalam Ketenangan Zen",
+      "message": "Mengikuti filosofi bambu yang lentur namun kokoh mengakar kuat di tanah, kami mengikat janji suci pernikahan. Kehadiran dan doa restu Bapak/Ibu/Saudara/i menjadi kehormatan bagi kami berdua.",
+      "sender": "Keluarga Besar Takahashi & Wardani",
+      "date": "2026-11-08",
+      "time": "10:00 WIB",
+      "location": "Zen Garden Pavilion & Tea House, Megamendung, Puncak",
+      "rsvp": "Doa tulus Anda adalah berkah kebahagiaan kami.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "bohemian-macrame-sunset": {
+      "template": "bohemian-macrame-sunset",
+      "recipient": "Rio Dewantara & Sigi Wulandari",
+      "title": "Makrame Bohemian & Senja Pantai",
+      "milestone": "Janji Sehidup Semati di Tepi Pasir Putih Berombak",
+      "message": "Tanpa alas kaki di atas pasir pantai hangat, diterpa sepoi angin laut senja, kami berjanji untuk saling mencintai hingga akhir masa. Bergabunglah dalam perayaan cinta penuh tawa, musik akustik, dan api unggun.",
+      "sender": "With Joy: Rio & Sigi",
+      "date": "2026-11-28",
+      "time": "16:30 WIB",
+      "location": "Karma Beach Pavilion, Jimbaran, Bali",
+      "rsvp": "Dress code: Bohemian White / Earthy Terracotta. RSVP WA.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "celestial-galaxy-nuptials": {
+      "template": "celestial-galaxy-nuptials",
+      "recipient": "Alden Narendra & Stella Angeline",
+      "title": "Akad Nikah Galaksi & Bintang Abadi",
+      "milestone": "Ikrar Dua Jiwa Bertemu di Bawah Gugusan Cahaya Kosmik",
+      "message": "Terlahir dari debu bintang yang sama, takdir mempertemukan langkah kami berdua. Kami memohon kehadiran Bapak/Ibu untuk menjadi saksi janji suci pernikahan kami di bawah naungan kubah langit bertabur stardust.",
+      "sender": "Keluarga Bpk. Hendra & Ibu Melissa",
+      "date": "2026-12-12",
+      "time": "18:00 WIB",
+      "location": "Celestial Dome Planetarium & Sky Ballroom, Jakarta",
+      "rsvp": "RSVP online melalui tautan resmi sebelum 1 Desember 2026.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "maritime-kapten-pelayaran": {
+      "template": "maritime-kapten-pelayaran",
+      "recipient": "Perwira Bahari Farrel Danuarta, ANT-III",
+      "title": "Wisuda Perwira Laut & Pelayaran",
+      "milestone": "Resmi Dilantik Sebagai Perwira Pelayaran Samudra",
+      "message": "Selamat atas kelulusan dan penyematan tanda pangkat perwira laut! Teruslah mengemudikan kapal masa depanmu dengan kompas integritas, keberanian menembus ombak badai, dan jiwa ksatria bahari.",
+      "sender": "Korps Alumni Pelayaran & Keluarga Besar Danuarta",
+      "date": "2026-11-14",
+      "time": "09:30 WIB",
+      "location": "Balai Samudera Grand Auditorium, Kelapa Gading, Jakarta",
+      "rsvp": "Jalesveva Jayamahe! Di Laut Kita Jaya.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "culinary-arts-mastery": {
+      "template": "culinary-arts-mastery",
+      "recipient": "Chef Jovanka Patricia, B.A. Hons",
+      "title": "Kelulusan Akademi Kuliner Cordon Bleu",
+      "milestone": "Kelulusan Program Diploma Seni Kuliner & Pastry",
+      "message": "Rasa bangga tak terkira atas ketekunanmu mengasah cita rasa, estetika hidangan bintang lima, dan dedikasi di dapur profesional. Selamat atas kelulusan diploma kuliner terbaik, bintang baru gastronomi!",
+      "sender": "Dari: Mama, Papa & Seluruh Sahabat",
+      "date": "2026-11-20",
+      "time": "14:00 WIB",
+      "location": "Grand Ballroom Culinary Institute, Senayan, Jakarta",
+      "rsvp": "Bon Appétit dan sukses selalu untuk karier kulinermu!",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "veterinary-animal-healer": {
+      "template": "veterinary-animal-healer",
+      "recipient": "drh. Anindya Kirana",
+      "title": "Sumpah Dokter Hewan & Sahabat Satwa",
+      "milestone": "Resmi Dilantik Sebagai Dokter Hewan Republik Indonesia",
+      "message": "Selamat atas pengucapan sumpah dokter hewan! Dedikasi tulusmu merawat dan menyembuhkan makhluk ciptaan Tuhan yang tak bersuara adalah panggilan mulia. Semoga langkah profesimu selalu diberkahi kebaikan.",
+      "sender": "Bangga Menyertaimu: Ayah, Ibu & Keluarga",
+      "date": "2026-11-26",
+      "time": "10:00 WIB",
+      "location": "Gedung Rektorat & Balai Pertemuan FKH, Bogor",
+      "rsvp": "Selamat mengabdi untuk kesejahteraan satwa nusantara!",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "music-conservatory-maestro": {
+      "template": "music-conservatory-maestro",
+      "recipient": "Maestro Julian Pramudya, B.Mus.",
+      "title": "Wisuda Konservatori Musik Maestro",
+      "milestone": "Kelulusan Sarjana Seni Musik dengan Predikat Kehormatan",
+      "message": "Petikan dawai biolamu telah menghidupkan jiwa ribuan penonton. Selamat atas kelulusan wisuda sarjana musik! Biarlah karya simfonimu kelak berkumandang di panggung-panggung orkestra terhebat di dunia.",
+      "sender": "Korps Orkestra & Keluarga Bpk. Pramudya",
+      "date": "2026-11-18",
+      "time": "15:30 WIB",
+      "location": "Symphony Hall & Theater Konservatori Musik, Jakarta",
+      "rsvp": "Bravo! Standing ovation untuk pencapaian agungmu.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "aerospace-rocket-engineer": {
+      "template": "aerospace-rocket-engineer",
+      "recipient": "David Christian, S.T. (Teknik Dirgantara)",
+      "title": "Teknik Dirgantara & Perancang Roket",
+      "milestone": "Meraih Gelar Sarjana Teknik Dirgantara & Astronautika",
+      "message": "Menembus batas gravitasi bumi, menggapai impian di antara orbit angkasa. Selamat atas gelar sarjana teknik penerbangan! Teruslah berinovasi merancang pesawat dan satelit kebanggaan tanah air.",
+      "sender": "Lab Dirgantara & Keluarga Bpk. Christian",
+      "date": "2026-11-25",
+      "time": "10:00 WIB",
+      "location": "Sasana Budaya Ganesa (Sabuga), Bandung",
+      "rsvp": "Perjalanan menembus bintang baru saja dimulai!",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "fine-arts-sculptor-studio": {
+      "template": "fine-arts-sculptor-studio",
+      "recipient": "Rania Laksmi, S.Sn.",
+      "title": "Wisuda Seni Rupa Pahat & Maestro Galeri",
+      "milestone": "Kelulusan Sarjana Seni Rupa Murni & Pameran Tunggal",
+      "message": "Setiap guratan kuas dan pahatan marmer yang kau sentuh melahirkan jiwa yang berbicara kepada dunia. Selamat wisuda Sarjana Seni! Semoga karya senimu terus menginspirasi dan menghiasi peradaban.",
+      "sender": "Dari: Dewan Dosen Seni & Rekan Seniman Studio",
+      "date": "2026-11-12",
+      "time": "16:00 WIB",
+      "location": "Galeri Nasional Indonesia, Gambir, Jakarta Pusat",
+      "rsvp": "Selamat atas karya pameran kelulusan yang memukau!",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "diplomatic-international-relations": {
+      "template": "diplomatic-international-relations",
+      "recipient": "Diplomat Muda Arya Wicaksono, S.Hub.Int.",
+      "title": "Pejabat Diplomatik & Hubungan Internasional",
+      "milestone": "Kelulusan Sarjana Hubungan Internasional & Korps Diplomat",
+      "message": "Selamat atas kelulusan wisuda dan penugasan awal di korps diplomatik! Bawalah nama harum bangsa di kancah perundingan dunia dengan wibawa, kecerdasan negosiasi, dan komitmen perdamaian abadi.",
+      "sender": "Dewan Rekan Sejawat & Keluarga Bpk. Wicaksono",
+      "date": "2026-11-27",
+      "time": "09:00 WIB",
+      "location": "Gedung Pancasila & Nusantara Hall Kemlu RI, Jakarta",
+      "rsvp": "Mengabdi untuk bangsa di panggung diplomasi dunia.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "cyber-security-hacker-defense": {
+      "template": "cyber-security-hacker-defense",
+      "recipient": "Fakhri Ramadhan, S.Kom. (Keamanan Siber)",
+      "title": "Sarjana Keamanan Siber & Benteng Digital",
+      "milestone": "Meraih Gelar Sarjana Komputer Spesialisasi Cybersecurity",
+      "message": "Akses diberikan: Wisuda Sukses! Selamat atas perjuanganmu menaklukkan algoritma kriptografi, ethical hacking, dan pertahanan jaringan siber. Teruslah menjadi benteng perlindungan data terpercaya di era digital!",
+      "sender": "Cyber Security Research Lab & Keluarga",
+      "date": "2026-11-21",
+      "time": "13:30 WIB",
+      "location": "Auditorium Kampus Teknologi Informasi, Depok",
+      "rsvp": "Security clearance granted. Selamat berbakti!",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "environmental-green-forestry": {
+      "template": "environmental-green-forestry",
+      "recipient": "Bintang Samudra, S.Hut.",
+      "title": "Sarjana Kehutanan & Konservasi Alam",
+      "milestone": "Kelulusan Sarjana Kehutanan & Konservasi Sumber Daya Hutan",
+      "message": "Setiap tetes keringatmu di belantara rimba adalah harapan bagi kelestarian paru-paru bumi. Selamat wisuda Sarjana Kehutanan! Teruslah menjaga hutan nusantara agar senantiasa hijau lestari bagi generasi mendatang.",
+      "sender": "Sahabat Rimbawan & Keluarga Bpk. Samudra",
+      "date": "2026-11-19",
+      "time": "10:00 WIB",
+      "location": "Balai Sidang Kehutanan & Konservasi Tropis, Bogor",
+      "rsvp": "Rimba lestari, masyarakat sejahtera! Selamat kawan.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "astronomy-astrophysics-phd": {
+      "template": "astronomy-astrophysics-phd",
+      "recipient": "Dr. Cynthia Alamsyah, Ph.D.",
+      "title": "Promosi Doktor Astrofisika Kosmos",
+      "milestone": "Sidang Terbuka Pengukuhan Gelar Doktor Astrofisika",
+      "message": "Dari kalkulasi rumus relativitas hingga penemuan anomali gelombang gravitasi di lubuk kosmos, dedikasi risetmu sungguh mengagumkan. Selamat atas pencapaian puncak gelar Doktor Astrofisika!",
+      "sender": "Dewan Senat Guru Besar & Tim Observatorium Kosmik",
+      "date": "2026-12-08",
+      "time": "13:00 WIB",
+      "location": "Aula Barat Kampus Ganesha, ITB, Bandung",
+      "rsvp": "Kehadiran para akademisi menjadi kehormatan bagi kami.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "festival-lampion-terbang": {
+      "template": "festival-lampion-terbang",
+      "recipient": "Seluruh Sahabat & Kerabat Terkasih",
+      "title": "Ribuan Lampion Terbang Malam Harapan",
+      "milestone": "Malam Pelepasan Seribu Harapan & Syukur Akhir Tahun",
+      "message": "Nyalakan sumbu lampion, panjatkan doa paling tulus dari lubuk hati, dan lepaskan bersama menuju luasnya langit malam. Mari rayakan rasa syukur atas segala berkah hidup yang telah kita lalui bersama.",
+      "sender": "Komunitas Pelita Nusantara & Keluarga",
+      "date": "2026-11-28",
+      "time": "19:30 WIB",
+      "location": "Bukit Bintang Sky Meadow, Dago Giri, Bandung",
+      "rsvp": "Bawa jaket hangatmu dan mari terbangkan doa bersama!",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "tahfidz-quran-khataman": {
+      "template": "tahfidz-quran-khataman",
+      "recipient": "Ananda Muhammad Hafiz Al-Baqir",
+      "title": "Tasyakuran Wisuda Tahfidz & Khataman",
+      "milestone": "Syukuran Khatam Hafalan 30 Juz Al-Qur'anul Karim",
+      "message": "Alhamdulillahirabbil 'alamin. Atas izin Allah SWT, ananda kami telah menyelesaikan hafalan 30 juz Al-Qur'an. Kami mengundang Bapak/Ibu/Saudara/i hadir dalam majelis doa bersama dan tasyakuran ungkapan syukur kami.",
+      "sender": "Keluarga Besar Bpk. H. Syarifuddin & Hj. Maryam",
+      "date": "2026-11-22",
+      "time": "09:00 WIB",
+      "location": "Pesantren Tahfidz Darul Istiqamah & Masjid Jami', Depok",
+      "rsvp": "Kehadiran dan doa restu para asatidz dan tamu sangat kami syukuri.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "housewarming-villa-tropis": {
+      "template": "housewarming-villa-tropis",
+      "recipient": "Keluarga Besar & Sahabat Handai Taulan",
+      "title": "Syukuran Griya Anyar Villa Tropis",
+      "milestone": "Tasyakuran Menempati Rumah Hunian Baru yang Nyaman",
+      "message": "Rumah bukan sekadar dinding bata dan atap pelindung, melainkan tempat bersemayamnya kehangatan cinta dan tawa. Kami mengundang sahabat tercinta untuk syukuran makan siang bersama di kediaman baru kami.",
+      "sender": "Bpk. Rangga Pratama & Ibu Nadine",
+      "date": "2026-11-15",
+      "time": "11:30 WIB",
+      "location": "Villa Cendana Tropis, Kompleks Sentul Hills, Bogor",
+      "rsvp": "Mohon konfirmasi kehadiran agar hidangan tersaji cukup.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "pesta-barbeque-pantai": {
+      "template": "pesta-barbeque-pantai",
+      "recipient": "Sobat Penikmat Senja & Kuliner",
+      "title": "Pesta Bakaran Ikan & Api Unggun Pantai",
+      "milestone": "Syukuran Akhir Proyek & Temu Kangen Sahabat",
+      "message": "Harumnya aroma ikan bakar bumbu rempah, suara debur ombak malam, dan petikan gitar akustik mengiringi canda tawa di sekeliling api unggun pantai. Datanglah dan nikmati pesta kuliner seafood bakar bersama kami!",
+      "sender": "Komunitas Sahabat Bahari & Panitia BBQ",
+      "date": "2026-11-21",
+      "time": "17:00 WIB",
+      "location": "Coconut Grove Beach Club, Pantai Indah Kapuk 2",
+      "rsvp": "RSVP via WhatsApp sebelum 18 November 2026.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "carnival-rio-samba": {
+      "template": "carnival-rio-samba",
+      "recipient": "Para Pecinta Irama Musik & Pesta",
+      "title": "Karnaval Samba Rio & Gemerlap Bulu",
+      "milestone": "Malam Perayaan Kemenangan Festival Seni Budaya",
+      "message": "Tabuhan genderang batucada bergemuruh memacu detak jantung! Kenakan kostum paling semarak dan berdansa bebas di tengah gemerlap lampu warna-warni, hujan konfeti, dan atraksi penari karnaval yang memukau!",
+      "sender": "Panitia Samba Fiesta & Sanggar Kreasi",
+      "date": "2026-12-05",
+      "time": "19:00 WIB",
+      "location": "Arena Festival Parade & Open Stage, Senayan, Jakarta",
+      "rsvp": "Dress code: Tropical Vivid & Festive Colors.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "pesta-taman-vintage-tea": {
+      "template": "pesta-taman-vintage-tea",
+      "recipient": "Sahabat & Kerabat Terhormat",
+      "title": "Pesta Kebun Teh Victoria & Macaron",
+      "milestone": "Tasyakuran Musim Semi & Reuni Hangat di Kebun Asri",
+      "message": "Di bawah keteduhan gazebo beralaskan taplak meja renda putih, mari nikmati seduhan teh Earl Grey harum, kue scone mentega hangat, dan tawa manis yang menghangatkan persaudaraan kita.",
+      "sender": "Tuan Rumah: Ibu Ratna Dewi & Sahabat",
+      "date": "2026-11-07",
+      "time": "15:30 WIB",
+      "location": "The Rose Gazebo & Heritage Garden, Sukabumi",
+      "rsvp": "Dress code: Floral Pastel Chic. RSVP via WhatsApp.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "inagurasi-ceo-korporat": {
+      "template": "inagurasi-ceo-korporat",
+      "recipient": "Seluruh Jajaran Direksi, Karyawan & Mitra Kerja",
+      "title": "Malam Inagurasi Direktur Utama Gala",
+      "milestone": "Malam Pelantikan Direktur Utama & Refleksi Visi 2030",
+      "message": "Mengawali era transformasi baru dengan kepemimpinan visioner dan integritas kokoh. Kami mengundang Dewan Komisaris, jajaran mitra bisnis, dan seluruh keluarga besar korporasi untuk menghadiri malam inagurasi resmi.",
+      "sender": "Dewan Panitia Inagurasi Nusantara Holding Corp",
+      "date": "2026-12-10",
+      "time": "18:30 WIB",
+      "location": "Grand Imperial Ballroom, Ritz-Carlton Mega Kuningan, Jakarta",
+      "rsvp": "RSVP resmi via sekretariat korporat sebelum 5 Desember 2026.",
+      "font": "font-cinzel",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "festival-layang-layang-pantai": {
+      "template": "festival-layang-layang-pantai",
+      "recipient": "Sahabat Komunitas Layang-Layang & Wisatawan",
+      "title": "Festival Layangan Samudra Angin Sepoi",
+      "milestone": "Gelar Seni Layangan Nusantara Mengarungi Langit Bahari",
+      "message": "Ratusan layangan raksasa berbentuk naga purba, burung garuda, dan gurita menari bebas di birunya langit pesisir pantai. Ajak keluarga menikmati angin semilir, pesta layangan warna-warni, dan hidangan kelapa muda segar!",
+      "sender": "Asosiasi Pelayang Samudra & Dinas Pariwisata",
+      "date": "2026-11-29",
+      "time": "13:30 WIB",
+      "location": "Pantai Pasir Putih Parangtritis & Pesisir Selatan",
+      "rsvp": "Gratis dan terbuka untuk umum! Bawa layangan kreasimu.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "oktoberfest-bavarian-cheers": {
+      "template": "oktoberfest-bavarian-cheers",
+      "recipient": "Seluruh Rekan & Sahabat Gemar Silaturahmi",
+      "title": "Syukuran Panen Oktoberfest & Bretzel",
+      "milestone": "Syukuran Panen Raya Gandum & Kebersamaan Penuh Tawa",
+      "message": "\"Prost!\" Angkat gelas minuman segar dan roti bretzel panggang hangat! Bergabunglah dalam tawa riang perayaan pesta panen gaya Bavarian, diiringi lagu riang akordeon dan permainan rakyat penuh hadiah seru.",
+      "sender": "Komite Pesta Panen & Bavarian Club",
+      "date": "2026-10-24",
+      "time": "17:00 WIB",
+      "location": "The Bavarian Beer Garden & Biergarten Pavilion, BSD",
+      "rsvp": "Bersulang untuk persahabatan sejati! RSVP via WhatsApp.",
+      "font": "font-sans",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "festival-kembang-api-milenium": {
+      "template": "festival-kembang-api-milenium",
+      "recipient": "Seluruh Sahabat & Keluarga Bahagia",
+      "title": "Kembang Api Malam Tahun Baru Milenium",
+      "milestone": "Hitung Mundur Detik Pergantian Tahun Penuh Harapan Baru",
+      "message": "Sepuluh... Sembilan... Delapan... Tiga... Dua... Satu! Dentuman kembang api menerangi langit malam dalam sejuta warna spektakuler! Sambut tahun yang baru dengan semangat membara dan harapan yang kian gemilang.",
+      "sender": "Malam Spektakuler: Panitia Countdown Gala",
+      "date": "2026-12-31",
+      "time": "21:00 WIB",
+      "location": "Rooftop Sky Deck & Horizon Lounge, Bundaran HI, Jakarta",
+      "rsvp": "Amankan posisimu sebelum pukul 22:00 WIB! RSVP WhatsApp.",
+      "font": "font-playfair",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "neon-roller-skating-rink": {
+      "template": "neon-roller-skating-rink",
+      "recipient": "Bintang 'Flash' Samudra",
+      "title": "Retro Neon Roller Skating Rink",
+      "milestone": "Pesta Meluncur Berputar Disco 80-an di Bawah Kilau Neon",
+      "message": "Pakai sepatu rodamu dan bersiap meluncur di lantai dansa berpendar neon! Mari rayakan ulang tahun dengan irama musik disko funky, putaran roda gemerlap, dan camilan kentang goreng renyah bersama sahabat.",
+      "sender": "Sahabat Meluncur: Bintang & Kru Disko",
+      "date": "2026-11-20",
+      "time": "16:00 WIB",
+      "location": "Roller Groove Arena & Milkshake Bar, Jakarta Selatan",
+      "rsvp": "Bawa kaus kaki retro terbaikmu! RSVP WhatsApp sebelum 17 November.",
+      "font": "font-outfit",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "dino-jurassic-safari-expedition": {
+      "template": "dino-jurassic-safari-expedition",
+      "recipient": "Rafi 'Raptor' Pratama",
+      "title": "Ekspedisi Dinosaurus Lembah Jurassic",
+      "milestone": "Ekspedisi Ulang Tahun ke-7 di Belantara Rimba Purba",
+      "message": "Raawr! Peringatan bagi seluruh penjelajah cilik: kita akan menembus hutan rimba purba mencari jejak T-Rex legendaris! Bersiaplah memecahkan telur dino raksasa dan mencicipi kue purba istimewa.",
+      "sender": "Ketua Ekspedisi: Ayah Budi & Bunda Rina",
+      "date": "2026-11-28",
+      "time": "15:00 WIB",
+      "location": "Lembah Jurassic Dino Adventure Park, Lembang, Bandung",
+      "rsvp": "Kenakan topi safari penjelajahmu! Konfirmasi sebelum 24 November.",
+      "font": "font-outfit",
+      "tone": "forest",
+      "role": "invitation"
+    },
+    "magic-potion-alchemy-party": {
+      "template": "magic-potion-alchemy-party",
+      "recipient": "Luna Astrid Kirana",
+      "title": "Laboratorium Potion & Ramuan Alkimia",
+      "milestone": "Pesta Peracik Ramuan Sihir & Kristal Bintang ke-9",
+      "message": "Tuang ekstrak bintang dan aduk kuali emasmu! Di hari ulang tahun penuh keajaiban ini, racik ramuan tawa riang, mantra keberuntungan abadi, dan kembang api gelembung sihir pelangi bersama sahabat penyihir.",
+      "sender": "Dewan Sihir: Luna & Keluarga Potter",
+      "date": "2026-10-24",
+      "time": "16:30 WIB",
+      "location": "Mystic Cauldron Alchemy Studio & Tea Lounge, Kemang",
+      "rsvp": "Bawa jubah penyihirmu! RSVP via burung pos atau WhatsApp.",
+      "font": "font-playfair",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "superhero-comic-city-defense": {
+      "template": "superhero-comic-city-defense",
+      "recipient": "Kenzo 'Thunder' Nugroho",
+      "title": "Markas Pahlawan Super Penjaga Kota",
+      "milestone": "Pelantikan Superhero Level 8 Penjaga Kota Megapolis",
+      "message": "Calling all superheroes! Kenakan jubah keberanianmu dan berkumpul di markas komando utama. Bersiaplah mengalahkan monster kejenuhan dengan tawa menggelegar dan ledakan pesta komik BAM POW!",
+      "sender": "Komandan Aliansi: Ayah Surya & Bunda Dian",
+      "date": "2026-11-15",
+      "time": "14:30 WIB",
+      "location": "Super Comic Tower & Action Arcade Center, BSD",
+      "rsvp": "Kostum pahlawan favoritmu sangat dinantikan! RSVP segera.",
+      "font": "font-plus-jakarta",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "kawaii-boba-pastel-tea": {
+      "template": "kawaii-boba-pastel-tea",
+      "recipient": "Alya Putri Candrawinata",
+      "title": "Pesta Manis Boba Pastel & Es Krim",
+      "milestone": "Pesta Ulang Tahun ke-10 Penuh Senyum & Boba Manis",
+      "message": "Slurp! Segelas kebahagiaan manis dengan mutiara boba kenyal dan krim vanila lembut siap menyambutmu! Datang dan nikmati tawa ceria, stiker lucu, dan pelukan hangat di hari spesial ini.",
+      "sender": "Pesta Boba: Keluarga Bpk. Aditya & Ibu Maya",
+      "date": "2026-10-18",
+      "time": "15:00 WIB",
+      "location": "Boba Pastel Garden Café & Dessert Bar, Bandung",
+      "rsvp": "Dress code warna pastel favoritmu! Konfirmasi sebelum 15 Okt.",
+      "font": "font-outfit",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "karting-championship-raceway": {
+      "template": "karting-championship-raceway",
+      "recipient": "Fathan 'Drift' Ramadhan",
+      "title": "Grand Prix Gokart Sirkuit Kejuaraan",
+      "milestone": "Pesta Balap Ulang Tahun ke-14 Menuju Podium Juara",
+      "message": "Nyalakan mesin gokart dan injak pedal gas dalam-dalam! Rayakan hari ulang tahun di lintasan aspal penuh adrenalin dengan kibasan bendera kotak-kotak dan semprotan soda kemenangan bersama sahabat sirkuit.",
+      "sender": "Racing Crew: Fathan & Sahabat Balap",
+      "date": "2026-11-22",
+      "time": "14:00 WIB",
+      "location": "Speedway Indoor Karting Circuit & Lounge, Sentul",
+      "rsvp": "Gunakan sepatu kets olahraga tertutup! RSVP via WhatsApp.",
+      "font": "font-plus-jakarta",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "space-rover-mars-colonizer": {
+      "template": "space-rover-mars-colonizer",
+      "recipient": "Alvaro 'Cosmo' Pratama",
+      "title": "Pendaratan Rover Robotik di Planet Mars",
+      "milestone": "Hitung Mundur Misi Antarplanet Usia ke-11 di Mars",
+      "message": "Perhatian kru antariksa: rover pengembara telah berhasil mendarat di dataran merah Mars! Mari rayakan ulang tahun antarplanet dengan es krim nitrogen cair dan pencarian kristal meteorit bercahaya di pangkalan kosmik.",
+      "sender": "Pusat Kendali Misi: Alvaro & Family",
+      "date": "2026-12-05",
+      "time": "15:30 WIB",
+      "location": "Cosmo Mars Discovery Dome & VR Simulation, Serpong",
+      "rsvp": "Konfirmasi nomor helm kosmonotmu sebelum 1 Desember 2026.",
+      "font": "font-inter",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "fairy-enchanted-woodland-glade": {
+      "template": "fairy-enchanted-woodland-glade",
+      "recipient": "Shaletta Nur Alya",
+      "title": "Gemerlap Cahaya Rimba Peri Ajaib",
+      "milestone": "Pesta Perayaan Sayap Peri Berkilau Usia ke-6",
+      "message": "Ikuti lentera jamur bercahaya ke tengah hutan dongeng. Para peri rimba telah menyiapkan perjamuan nektar manis, dansa mahkota bunga, dan harapan indah yang terkabul di bawah sinar rembulan perak.",
+      "sender": "Ratu Rimba: Bunda Laras & Ayah Dimas",
+      "date": "2026-10-31",
+      "time": "15:00 WIB",
+      "location": "Secret Fairy Glade & Glass Greenhouse, Ciumbuleuit",
+      "rsvp": "Bawa sayap perimu! RSVP via WhatsApp sebelum 27 Oktober.",
+      "font": "font-playfair",
+      "tone": "forest",
+      "role": "invitation"
+    },
+    "aquarium-sea-turtle-reef": {
+      "template": "aquarium-sea-turtle-reef",
+      "recipient": "Nadhif 'Ocean' Althaf",
+      "title": "Pesona Terumbu Karang & Penyu Samudra",
+      "milestone": "Menyelami Petualangan Samudra di Usia ke-8",
+      "message": "Berenanglah bersama penyu laut raksasa melewati labirin terumbu karang warna-warni! Pesta ulang tahun bahari penuh misteri samudra dan tawa riang sejuk sedalam palung laut menantimu.",
+      "sender": "Sahabat Laut: Nadhif & Keluarga Bahari",
+      "date": "2026-11-08",
+      "time": "14:00 WIB",
+      "location": "Jakarta Aquarium & Safari Underwater Dome, Neo Soho",
+      "rsvp": "Tiket terusan akuarium disediakan! Konfirmasi sebelum 4 Nov.",
+      "font": "font-inter",
+      "tone": "navy",
+      "role": "invitation"
+    },
+    "pirate-skull-island-voyage": {
+      "template": "pirate-skull-island-voyage",
+      "recipient": "Kapten Danendra Malik",
+      "title": "Pelayaran Galleon Bajak Laut Karibia",
+      "milestone": "Pelayaran Kapten Bajak Laut Muda Memasuki Usia ke-10",
+      "message": "Ahooy pelaut tangguh! Buka kompas kunomu dan kibarkan layar hitam! Kita berlayar menuju teluk rahasia untuk membagi keping koin emas rampasan dan menggelar pesta buah tropis terheboh.",
+      "sender": "Kapal Black Pearl: Kapten Danendra & Awak Kapal",
+      "date": "2026-11-14",
+      "time": "15:00 WIB",
+      "location": "Pirate Cove Themed Pavilion & Beach Bar, Ancol",
+      "rsvp": "Siapkan pedang busa dan penutup matamu! RSVP segera.",
+      "font": "font-outfit",
+      "tone": "original",
+      "role": "invitation"
+    },
+    "bali-puri-royal-agung": {
+      "template": "bali-puri-royal-agung",
+      "recipient": "Ida Bagus Rama & Anak Agung Shanti",
+      "title": "Pawiwahan Puri Agung Tirta Kencana Bali",
+      "milestone": "Pawiwahan Agung Janji Suci Abadi Tirta Kencana",
+      "message": "Om Swastyastu. Dengan restu Ida Sang Hyang Widhi Wasa dan leluhur agung, kami mengikat janji suci pernikahan abadi. Kehadiran dan doa restu Anda laksana percikan tirta suci yang menyejukkan sanubari kami.",
+      "sender": "Puri Kencana: Keluarga Bpk. Ida Bagus Yoga & Ibu Ayu",
+      "date": "2026-12-12",
+      "time": "10:00 WITA",
+      "location": "Puri Ageng Tirta Kencana, Ubud, Gianyar, Bali",
+      "rsvp": "Pakaian adat Bali / Nasional. RSVP via WhatsApp.",
+      "font": "font-playfair",
+      "tone": "gold",
+      "role": "invitation"
+    },
+    "betawi-palang-pintu-delman": {
+      "template": "betawi-palang-pintu-delman",
+      "recipient": "M. Fikri Maulana & Siti Nurhaliza",
+      "title": "Semarak Pengantin Betawi Palang Pintu",
+      "milestone": "Akad Nikah & Resepsi Agung Adat Pengantin Betawi",
+      "message": "Kembang kelapa rumbai gemerlap berbaris menyambut rombongan besan. Usai palang pintu ditebus dengan silat dan lantunan pantun jenaka, dua keluarga besar resmi bersatu dalam mahligai rumah tangga berkah.",
+      "sender": "Keluarga Besar Bpk. H. Rahmat & Ibu Hj. Zaenab",
+      "date": "2026-11-29",
+      "time": "11:00 WIB",
+      "location": "Gedung Bagas Raya & Perkampungan Budaya Setu Babakan",
+      "rsvp": "Mohon doa restu dan konfirmasi kehadiran Anda.",
+      "font": "font-plus-jakarta",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "dayak-hudoq-borneo-royalty": {
+      "template": "dayak-hudoq-borneo-royalty",
+      "recipient": "Gabriel Lawing & Clarissa Ingan",
+      "title": "Pernikahan Agung Mahligai Dayak Kenyah",
+      "milestone": "Pernikahan Adat Luhur Mahligai Dayak Kenyah Borneo",
+      "message": "Di bawah naungan rimbun pohon ulin Kalimantan dan denting gong keramat, dua insan berikrar setia. Mari rayakan pertautan dua keluarga agung dengan tarian syukur dan berkah alam nan lestari.",
+      "sender": "Keluarga Besar Bpk. Lawing Belawan & Ibu Ping",
+      "date": "2026-12-06",
+      "time": "13:00 WITA",
+      "location": "Lamin Adat Kenyah & Ballroom Hotel Mercure, Samarinda",
+      "rsvp": "Konfirmasi kehadiran via narahubung adat keluarga.",
+      "font": "font-outfit",
+      "tone": "gold",
+      "role": "invitation"
+    },
+    "makassar-baju-bodo-silk": {
+      "template": "makassar-baju-bodo-silk",
+      "recipient": "Andi Tenri Sessu & Andi Muh. Rizal",
+      "title": "Resepsi Sutra Bugis Baju Bodo Makassar",
+      "milestone": "Pesta Resepsi Pernikahan Adat Bugis Makassar Mappacci",
+      "message": "Sipakatau, sipakalebbi, sipakainge. Dalam balutan keanggunan sutra tenun Bugis dan kemilau mahkota saloko, kami melangkah bersama mengarungi samudra kehidupan dengan ridha dan cinta tulus.",
+      "sender": "Keluarga Besar Bpk. Andi Iskandar & Ibu Andi Murni",
+      "date": "2026-11-21",
+      "time": "19:00 WITA",
+      "location": "Grand Ballroom Hotel Claro Makassar, Jl. A. P. Pettarani",
+      "rsvp": "Dress code: Formal Adat / Gaun Malam. RSVP WhatsApp.",
+      "font": "font-playfair",
+      "tone": "forest",
+      "role": "invitation"
+    },
+    "kyoto-shinto-zen-sanctuary": {
+      "template": "kyoto-shinto-zen-sanctuary",
+      "recipient": "Kenjiro Takahashi & Yuna Paramitha",
+      "title": "Upacara Sakral Shinto Kuil Salju Kyoto",
+      "milestone": "Pernikahan Kudus Shinto San-San-Kudo di Kuil Suci",
+      "message": "Di tengah keheningan pohon pinus purba dan taburan kelopak bunga sakura, kami bertukar cangkir sake suci San-san-kudo. Doa restu Anda melengkapi ketenteraman langkah bahtera kami.",
+      "sender": "Keluarga Bpk. Takahashi & Bpk. Bambang Sutrisno",
+      "date": "2026-12-19",
+      "time": "11:00 JST",
+      "location": "Heian Jingu Shrine Pavilion, Sakyo Ward, Kyoto",
+      "rsvp": "RSVP via situs pernikahan resmi sebelum 1 Desember 2026.",
+      "font": "font-lora",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "santorini-cliffside-bougainvillea": {
+      "template": "santorini-cliffside-bougainvillea",
+      "recipient": "Julian Alexander & Natasha Clarissa",
+      "title": "Tebing Putih Santorini & Bougenvil Romansa",
+      "milestone": "Pernikahan Romantis di Atas Tebing Laut Aegea",
+      "message": "Saat lembayung senja mewarnai kaldera Aegea dan kelopak merah magenta merekah di dinding kapur putih, kami mengikrarkan cinta seumur hidup. Jadilah saksi ikrar terindah dalam perjalanan kami.",
+      "sender": "Dengan Kasih: Julian & Natasha",
+      "date": "2026-10-10",
+      "time": "17:30 EEST",
+      "location": "Canaves Oia Suites Cliffside Terrace, Santorini, Greece",
+      "rsvp": "Dress code: White & Coastal Chic. RSVP online.",
+      "font": "font-playfair",
+      "tone": "navy",
+      "role": "invitation"
+    },
+    "art-deco-great-gatsby-gala": {
+      "template": "art-deco-great-gatsby-gala",
+      "recipient": "Christian Winata & Michelle Salim",
+      "title": "The Great Gatsby 1920s Art Deco Glamour",
+      "milestone": "Malam Perjamuan Agung Pernikahan Bertabur Emas",
+      "message": "A little party never killed nobody! Kenakan setelan jas tuksedo terbaik dan gaun berpayet mutiara dalam malam perayaan cinta termegah dengan alunan big band jazz dan pancuran kristal sampanye.",
+      "sender": "The Newlyweds: Christian & Michelle",
+      "date": "2026-11-07",
+      "time": "18:30 WIB",
+      "location": "The Grand Ballroom Hotel Mulia Senayan, Jakarta",
+      "rsvp": "Dress code: 1920s Black Tie & Gold Elegance. RSVP via WA.",
+      "font": "font-playfair",
+      "tone": "gold",
+      "role": "invitation"
+    },
+    "provence-lavender-sunflower-meadow": {
+      "template": "provence-lavender-sunflower-meadow",
+      "recipient": "Bramantyo Wicaksono & Camille Dupont",
+      "title": "Padang Bunga Lavender & Matahari Provence",
+      "milestone": "Pemberkatan Pernikahan Romansa Alam Bebas Provence",
+      "message": "Di antara semilir angin beraroma lavender ungu dan keceriaan bunga matahari yang merekah menghadap fajar, kami menyatukan dua hati. Mari rayakan perjamuan hangat dengan roti gandum dan madu alami.",
+      "sender": "Dengan Bahagia: Bramantyo & Camille",
+      "date": "2026-10-17",
+      "time": "16:00 CET",
+      "location": "Château de Tourreau Estate & Meadow, Sarrians, France",
+      "rsvp": "Konfirmasi kehadiran via narahubung resepsi.",
+      "font": "font-lora",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "castle-fairytale-enchanted-gates": {
+      "template": "castle-fairytale-enchanted-gates",
+      "recipient": "Pangeran Daniel & Putri Aurelia",
+      "title": "Gerbang Kerajaan Romansa Dongeng Abadi",
+      "milestone": "Pesta Permaisuri & Janji Hidup Bahagia Selamanya",
+      "message": "Kisah dongeng terindah bukan lagi sekadar impian. Di hadapan gerbang istana megah bertabur bunga mawar putih, kami memulai babak baru hidup bahagia selamanya bersama restu orang terkasih.",
+      "sender": "Kediaman Istana: Daniel & Aurelia",
+      "date": "2026-11-28",
+      "time": "18:00 WIB",
+      "location": "The Royal Glass Castle Conservatory, Lembang",
+      "rsvp": "Busana pesta kerajaan formal. RSVP WhatsApp.",
+      "font": "font-playfair",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "crystal-cathedral-stained-glass": {
+      "template": "crystal-cathedral-stained-glass",
+      "recipient": "Andreas Pratama & Maria Christine",
+      "title": "Katedral Kaca Patri Kristal Cahaya Pelangi",
+      "milestone": "Sakramen Pernikahan Kudus di Katedral Kristal",
+      "message": "Cahaya mentari menembus kaca patri megah, melukiskan permadani spektrum pelangi di atas altar pernikahan. Dengan kerendahan hati dan syukur mendalam, kami berpadu menjadi satu jiwa.",
+      "sender": "Dengan Penuh Syukur: Keluarga Pratama & Handoko",
+      "date": "2026-12-12",
+      "time": "10:30 WIB",
+      "location": "Gereja Katedral Santa Maria & Aula Yohanes Paulus",
+      "rsvp": "Kehadiran dan doa restu Anda adalah kado terindah.",
+      "font": "font-playfair",
+      "tone": "navy",
+      "role": "invitation"
+    },
+    "sapphire-45th-royal-jubilee": {
+      "template": "sapphire-45th-royal-jubilee",
+      "recipient": "Bpk. Ir. Gunawan & Ibu Endang Sri",
+      "title": "Jubileum Safir 45 Tahun Pernikahan Agung",
+      "milestone": "Jubileum Pernikahan Safir 45 Tahun Penuh Kesetiaan",
+      "message": "Seperti permata safir biru tua yang memancarkan keteguhan dan kedamaian tanpa cela, 45 tahun perjalanan bahtera rumah tangga ini membuktikan ketulusan cinta sejati yang tak pernah lekang oleh waktu.",
+      "sender": "Anak-Anak & Cucu-Cucu Tercinta",
+      "date": "2026-11-18",
+      "time": "18:00 WIB",
+      "location": "The Hermitage Heritage Ballroom, Menteng, Jakarta",
+      "rsvp": "Kehadiran keluarga besar sangat dinantikan. RSVP WhatsApp.",
+      "font": "font-playfair",
+      "tone": "navy",
+      "role": "greeting"
+    },
+    "emerald-55th-eternal-devotion": {
+      "template": "emerald-55th-eternal-devotion",
+      "recipient": "Bpk. Soedarmono & Ibu Siti Hartini",
+      "title": "Mahkota Zamrud Abadi 55 Tahun Bersama",
+      "milestone": "Peringatan Ulang Tahun Pernikahan Zamrud 55 Tahun",
+      "message": "Zamrud adalah lambang pertumbuhan, kesabaran, dan pembaruan cinta yang abadi. Setengah abad lebih bergandengan tangan, melintasi badai dan pelangi, menjadi inspirasi hidup bagi seluruh keturunan tercinta.",
+      "sender": "Dengan Sembah Bakti: Seluruh Keluarga Besar",
+      "date": "2026-10-25",
+      "time": "12:00 WIB",
+      "location": "Plataran Menteng Pavilion & Dining Room, Jakarta",
+      "rsvp": "Doa tulus Anda adalah anugerah terbesar bagi kami.",
+      "font": "font-lora",
+      "tone": "forest",
+      "role": "greeting"
+    },
+    "starlight-rooftop-acoustic-duet": {
+      "template": "starlight-rooftop-acoustic-duet",
+      "recipient": "Fahri Daniswara & Annisa Larasati",
+      "title": "Duet Akustik Senja di Bawah Rasi Bintang",
+      "milestone": "Sepuluh Tahun Meniti Melodi Kasih Sepanjang Masa",
+      "message": "Tahun-tahun berganti, namun setiap detik bersamamu selalu terdengar seindah melodi lagu favorit kita. Terima kasih telah menjadi pasangan duet terbaik dalam setiap lembar melodi kehidupanku.",
+      "sender": "Pasangan Selamanya: Fahri & Annisa",
+      "date": "2026-11-12",
+      "time": "19:00 WIB",
+      "location": "Skyline Rooftop Garden & Acoustic Lounge, Senopati",
+      "rsvp": "Mari bernyanyi dan bernostalgia bersama kami.",
+      "font": "font-plus-jakarta",
+      "tone": "rose",
+      "role": "greeting"
+    },
+    "venetian-carnival-duet-masque": {
+      "template": "venetian-carnival-duet-masque",
+      "recipient": "Leonardo Wijaya & Beatrice Laurent",
+      "title": "Dua Topeng Emas Karnaval Romansa Venesia",
+      "milestone": "Ulang Tahun Pernikahan Kristal di Balik Topeng Cinta",
+      "message": "Meskipun dunia penuh dengan pesta dan keramaian topeng sandiwara, hanya senyumanmu yang selalu kukenali di ujung malam. Selamat hari ulang tahun pernikahan, cinta sejatiku.",
+      "sender": "Dengan Segenap Hati: Leonardo & Beatrice",
+      "date": "2026-10-30",
+      "time": "20:00 CET",
+      "location": "Palazzo Venart Grand Canal Terrace, Venice, Italy",
+      "rsvp": "RSVP via portal pribadi keluarga.",
+      "font": "font-playfair",
+      "tone": "rose",
+      "role": "greeting"
+    },
+    "cozy-log-cabin-autumn-embers": {
+      "template": "cozy-log-cabin-autumn-embers",
+      "recipient": "Bagas Arya & Devina Maharani",
+      "title": "Kabin Kayu Pinus & Perapian Musim Gugur",
+      "milestone": "Delapan Musim Merawat Kehangatan Rumah Tangga",
+      "message": "Di tengah dinginnya dunia luar, kehangatan pelukanmu selalu menjadi tempatku berpulang paling damai. Semoga bara cinta kita terus berpijar memberikan terang bagi langkah masa depan.",
+      "sender": "Rumah Kita: Bagas & Devina",
+      "date": "2026-11-27",
+      "time": "18:00 WIB",
+      "location": "Pine Ridge Alpine Lodge & Stone Fireplace, Lembang",
+      "rsvp": "Bawa mantel hangatmu! RSVP WhatsApp.",
+      "font": "font-lora",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "hot-air-balloon-cappadocia-sunrise": {
+      "template": "hot-air-balloon-cappadocia-sunrise",
+      "recipient": "Reza Hendrawan & Nadira Farhana",
+      "title": "Fajar Balon Udara Lembah Cappadocia",
+      "milestone": "Tujuh Tahun Mengarungi Cakrawala Impian Bersama",
+      "message": "Cinta kita laksana balon udara yang membubung tenang menembus awan tipis, memandang panorama lembah kehidupan yang begitu luas dan menakjubkan. Teruslah terbang bersamaku, sayang.",
+      "sender": "Terbang Bersama: Reza & Nadira",
+      "date": "2026-10-15",
+      "time": "06:00 TRT",
+      "location": "Goreme Sunrise Viewpoint & Hot Air Balloon Flight, Turkey",
+      "rsvp": "Bagikan kenangan manismu bersama kami.",
+      "font": "font-outfit",
+      "tone": "rose",
+      "role": "greeting"
+    },
+    "moonlit-waterfall-serenade": {
+      "template": "moonlit-waterfall-serenade",
+      "recipient": "Rangga Yudhistira & Cinta Kasih",
+      "title": "Riam Air Terjun Perak di Bawah Rembulan",
+      "milestone": "Dua Belas Tahun Cinta Sejuk Menenangkan Jiwa",
+      "message": "Sejuk dan mengalir tanpa henti laksana air terjun pegunungan yang jernih, demikianlah cintamu menyegarkan setiap sudut jiwaku. Terima kasih atas setiap pengorbanan dan senyuman tulusmu.",
+      "sender": "Kekasih Jiwa: Rangga & Cinta",
+      "date": "2026-11-05",
+      "time": "18:30 WIB",
+      "location": "Curug Cimahi Waterfall Sanctuary Pavilion, Cisarua",
+      "rsvp": "Doa Anda menyempurnakan kebahagiaan kami.",
+      "font": "font-lora",
+      "tone": "navy",
+      "role": "greeting"
+    },
+    "amalfi-coast-lemon-terrace": {
+      "template": "amalfi-coast-lemon-terrace",
+      "recipient": "Matteo Rossi & Sarah Amalia",
+      "title": "Teras Kebun Lemon Pesisir Pantai Amalfi",
+      "milestone": "Sembilan Tahun Mengarungi Petualangan Mediterania",
+      "message": "Hidup ini terasa begitu manis, segar, dan penuh warna sejak kita melangkah beriringan. Mari bersulang limoncello merayakan setiap tahun penuh petualangan yang tak terlupakan!",
+      "sender": "Bersulang Cinta: Matteo & Sarah",
+      "date": "2026-10-22",
+      "time": "17:00 CEST",
+      "location": "Villa Cimbrone Cliffside Lemon Grove, Ravello, Italy",
+      "rsvp": "Salute! Konfirmasi kehadiranmu.",
+      "font": "font-plus-jakarta",
+      "tone": "forest",
+      "role": "greeting"
+    },
+    "tahiti-overwater-bungalow-sunset": {
+      "template": "tahiti-overwater-bungalow-sunset",
+      "recipient": "Dion Pranoto & Jessica Natalie",
+      "title": "Bungalow Terapung Laguna Biru Tahiti",
+      "milestone": "Enam Tahun Bahtera Rumah Tangga di Surga Bahari",
+      "message": "Hanya ada kita berdua, desau lembut ombak laguna, dan senja yang melukis langit merah muda. Bersamamu, setiap hari adalah liburan surga yang paling kusyukuri.",
+      "sender": "Penuh Kasih: Dion & Jessica",
+      "date": "2026-11-19",
+      "time": "18:00 TAHT",
+      "location": "Bora Bora Lagoon Resort & Overwater Pavilion, French Polynesia",
+      "rsvp": "Momen spesial dibagikan secara privat.",
+      "font": "font-playfair",
+      "tone": "rose",
+      "role": "greeting"
+    },
+    "golden-record-timeless-melody": {
+      "template": "golden-record-timeless-melody",
+      "recipient": "Bpk. Harry Koeswoyo & Ibu Maya",
+      "title": "Piringan Hitam Emas Simfoni Romansa",
+      "milestone": "Tiga Puluh Tahun Harmoni Nada Cinta Tak Lekang Waktu",
+      "message": "Lagu kita mungkin klasik, tapi getarannya selalu baru di dada. Setiap putaran waktu semakin memperkaya harmoni cinta yang kita bangun bersama dengan kesetiaan.",
+      "sender": "Simfoni Cinta: Harry & Maya",
+      "date": "2026-12-01",
+      "time": "19:00 WIB",
+      "location": "Vintage Vinyl Lounge & Gramophone Hall, Menteng",
+      "rsvp": "Mari bernostalgia menikmati irama emas bersama.",
+      "font": "font-playfair",
+      "tone": "gold",
+      "role": "greeting"
+    },
+    "aviation-flight-captain-wings": {
+      "template": "aviation-flight-captain-wings",
+      "recipient": "Kapten Fikri Alamsyah, S.Tr.Pel.",
+      "title": "Pelantikan Sayap Emas Kapten Penerbang",
+      "milestone": "Pelantikan Perwira Penerbang & Perolehan Lisensi ATPL",
+      "message": "The sky is not the limit, it is our home! Selamat atas perolehan empat garis di pundak dan sayap penerbang emas. Teruslah terbang tinggi menjaga keselamatan penumpang dengan integritas dan dedikasi.",
+      "sender": "Bangga & Haru: Keluarga Besar Alamsyah",
+      "date": "2026-11-10",
+      "time": "09:00 WIB",
+      "location": "Auditorium Akademi Penerbangan Indonesia, Curug",
+      "rsvp": "Kehadiran Anda adalah kehormatan bagi perwira kami.",
+      "font": "font-plus-jakarta",
+      "tone": "navy",
+      "role": "greeting"
+    },
+    "marine-oceanography-deep-dive": {
+      "template": "marine-oceanography-deep-dive",
+      "recipient": "Annisa Maharani, S.Si.",
+      "title": "Wisuda Sarjana Oseanografi & Biologi Laut",
+      "milestone": "Wisuda Sarjana Sains Oseanografi Fakultas MIPA",
+      "message": "Selamat atas gelar barumu dalam menyelami misteri samudra raya! Semoga dedikasi penelitianmu membawa pencerahan bagi konservasi biota laut dan kelestarian ekosistem bumi kita.",
+      "sender": "Keluarga & Laboratorium Ilmu Kelautan",
+      "date": "2026-10-28",
+      "time": "10:00 WIB",
+      "location": "Sasana Budaya Ganesa ITB & Departemen Oseanografi",
+      "rsvp": "Mari bersukacita merayakan kelulusan ini bersama.",
+      "font": "font-inter",
+      "tone": "navy",
+      "role": "greeting"
+    },
+    "petroleum-mining-engineering-gold": {
+      "template": "petroleum-mining-engineering-gold",
+      "recipient": "Faris Maulana, S.T.",
+      "title": "Sarjana Teknik Perminyakan & Tambang",
+      "milestone": "Kelulusan Sarjana Teknik Perminyakan Cum Laude",
+      "message": "Dari perut bumi yang dalam hingga menara anjungan di tengah badai samudra, pengetahuan dan keberanianmu telah teruji. Selamat berkarya membangun kedaulatan energi bangsa!",
+      "sender": "Bangga Selalu: Ayah, Ibu & Keluarga Besar",
+      "date": "2026-11-21",
+      "time": "09:30 WIB",
+      "location": "Balai Sidang Universitas Indonesia, Depok",
+      "rsvp": "Ucapan selamat Anda sangat berarti bagi kami.",
+      "font": "font-plus-jakarta",
+      "tone": "gold",
+      "role": "greeting"
+    },
+    "neurology-brain-neuroscience-pulse": {
+      "template": "neurology-brain-neuroscience-pulse",
+      "recipient": "dr. Raditya Nugraha, Sp.N",
+      "title": "Dokter Spesialis Neurologi & Neurosains",
+      "milestone": "Pelantikan Dokter Spesialis Neurologi Fakultas Kedokteran",
+      "message": "Membimbing kesembuhan pikiran dan memulihkan simfoni sinapsis saraf adalah panggilan luhur yang mulia. Selamat atas sumpah dokter spesialis neurologi, kebanggaan kami semua!",
+      "sender": "Dengan Bangga: Rekan Sejawat & Keluarga Nugraha",
+      "date": "2026-12-08",
+      "time": "10:00 WIB",
+      "location": "Aula Simatupang FKUI Salemba & RSCM Jakarta",
+      "rsvp": "Doa tulus untuk pengabdian dokter spesialis baru.",
+      "font": "font-inter",
+      "tone": "navy",
+      "role": "greeting"
+    },
+    "quantum-computing-physicist": {
+      "template": "quantum-computing-physicist",
+      "recipient": "Dr. Alden Wicaksana, Ph.D.",
+      "title": "Master & Doktor Fisika Kuantum Super",
+      "milestone": "Promosi Doktor Fisika Kuantum & Komputasi Lanjut",
+      "message": "Mengurai misteri superposisi dan jalinan kuantum partikel subatomik! Selamat atas penyelesaian riset doktoralmu yang gemilang. Masa depan revolusi teknologi ada di tanganmu.",
+      "sender": "Laboratorium Komputasi Kuantum & Keluarga Wicaksana",
+      "date": "2026-11-25",
+      "time": "14:00 WIB",
+      "location": "Auditorium Riset Sains Terpadu & Laboratorium Qubit",
+      "rsvp": "Ucapan selamat dan apresiasi penelitian disertasi.",
+      "font": "font-inter",
+      "tone": "original",
+      "role": "greeting"
+    },
+    "agricultural-agronomy-green-harvest": {
+      "template": "agricultural-agronomy-green-harvest",
+      "recipient": "Ilham Syahputra, S.P.",
+      "title": "Sarjana Agroteknologi & Pangan Lestari",
+      "milestone": "Kelulusan Sarjana Pertanian Fakultas Pertanian Tropika",
+      "message": "Tanah air tersenyum menyambut sarjana yang siap menumbuhkan kesejahteraan dari bumi pertiwi. Selamat atas kelulusan sarjana agroteknologi, teruslah mengabdi untuk kemakmuran petani!",
+      "sender": "Keluarga Besar Bpk. Subroto & Ibu Warsiti",
+      "date": "2026-10-21",
+      "time": "09:00 WIB",
+      "location": "Grha Sabha Pramana Universitas Gadjah Mada, Yogyakarta",
+      "rsvp": "Doa restu Anda menjadi pupuk bagi semangat pengabdian.",
+      "font": "font-plus-jakarta",
+      "tone": "forest",
+      "role": "greeting"
+    },
+    "culinary-pastry-chef-patisserie": {
+      "template": "culinary-pastry-chef-patisserie",
+      "recipient": "Chef Clarissa Aurelia, Diplôme de Pâtisserie",
+      "title": "Grand Diploma Master Patisserie Seni Kue",
+      "milestone": "Kelulusan Grand Diploma Le Cordon Bleu Culinary Arts",
+      "message": "Setiap lapis pastry yang renyah dan kilau ganache cokelat adalah karya seni dari kesabaran dan cinta. Selamat atas raihan topi chef tertinggi, jadilah maestro kuliner kelas dunia!",
+      "sender": "Dengan Bangga: Keluarga Bpk. Aris & Ibu Diana",
+      "date": "2026-11-14",
+      "time": "15:00 WIB",
+      "location": "The Grand Kitchen Ballroom & Patisserie Academy Hall",
+      "rsvp": "Cicipi sajian kreasi kue kelulusan istimewa bersama kami.",
+      "font": "font-playfair",
+      "tone": "rose",
+      "role": "greeting"
+    },
+    "journalism-broadcast-media-producer": {
+      "template": "journalism-broadcast-media-producer",
+      "recipient": "Daffa Satria, S.I.Kom.",
+      "title": "Sarjana Jurnalistik & Produser Siaran Berita",
+      "milestone": "Wisuda Sarjana Ilmu Komunikasi Jurnalistik Penyiaran",
+      "message": "Keberanian mencari fakta dan ketajaman merangkai narasi adalah benteng demokrasi bangsa. Selamat atas gelar sarjana komunikasi jurnalistik, jadilah suara bagi mereka yang tak terdengar!",
+      "sender": "Keluarga & Redaksi Berita Kampus",
+      "date": "2026-11-28",
+      "time": "10:30 WIB",
+      "location": "Auditorium Fakultas Ilmu Komunikasi Universitas Padjadjaran",
+      "rsvp": "Ucapan selamat Anda adalah penyemangat pena jurnalis muda.",
+      "font": "font-plus-jakarta",
+      "tone": "rose",
+      "role": "greeting"
+    },
+    "civil-infrastructure-bridge-builder": {
+      "template": "civil-infrastructure-bridge-builder",
+      "recipient": "Taufiq Hidayat, S.T.",
+      "title": "Sarjana Teknik Sipil & Rekayasa Jembatan",
+      "milestone": "Wisuda Sarjana Teknik Sipil Struktur & Infrastruktur",
+      "message": "Menghubungkan pulau, menembus gunung, dan membangun fondasi peradaban modern! Selamat atas wisuda teknik sipilmu. Bangunlah karya megah yang kokoh menantang zaman.",
+      "sender": "Keluarga Besar Bpk. Hidayat & Ikatan Alumni Sipil",
+      "date": "2026-10-31",
+      "time": "09:30 WIB",
+      "location": "Convention Hall Institut Teknologi Sepuluh Nopember, Surabaya",
+      "rsvp": "Ucapan selamat Anda menyertai langkah pertama insinyur kami.",
+      "font": "font-plus-jakarta",
+      "tone": "navy",
+      "role": "greeting"
+    },
+    "cyber-forensics-security-analyst": {
+      "template": "cyber-forensics-security-analyst",
+      "recipient": "Fajri Ramadhan, M.Kom., CEH",
+      "title": "Spesialis Keamanan Siber & Forensik Digital",
+      "milestone": "Kelulusan Magister Keamanan Siber & Sertifikasi CISSP",
+      "message": "Di era digital yang penuh ancaman siber, dedikasimu membedah kode jahat dan membentengi data adalah garda terdepan pertahanan bangsa. Selamat atas sertifikasi bergengsimu!",
+      "sender": "Cyber Defense Lab & Rekan Tim Keamanan Data",
+      "date": "2026-11-17",
+      "time": "13:30 WIB",
+      "location": "Pusat Studi Ketahanan Siber Nasional & Aula Universitas",
+      "rsvp": "Apresiasi dan doa sukses untuk sang perisai data.",
+      "font": "font-inter",
+      "tone": "forest",
+      "role": "greeting"
+    },
+    "barongsai-lion-dance-festival": {
+      "template": "barongsai-lion-dance-festival",
+      "recipient": "Seluruh Keluarga Besar & Mitra Usaha Mulia",
+      "title": "Atraksi Singa Barongsai & Genderang Merah",
+      "milestone": "Pesta Perayaan Imlek & Syukuran Keberuntungan Usaha",
+      "message": "Gong Xi Fa Cai! Sambut atraksi singa barongsai emas yang melompat lincah di atas tiang tinggi! Semoga dentuman tambur mengusir segala kesialan dan mendatangkan rezeki serta kemakmuran melimpah ruah.",
+      "sender": "Keluarga Besar Perkumpulan Liong & Barongsai Dharma",
+      "date": "2026-02-17",
+      "time": "18:30 WIB",
+      "location": "Plaza Klenteng Kwan Sing Bio & Grand Dragon Court",
+      "rsvp": "Pakai baju bernuansa merah hoki! Konfirmasi via WhatsApp.",
+      "font": "font-outfit",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "toraja-rambu-solo-kabana": {
+      "template": "toraja-rambu-solo-kabana",
+      "recipient": "Rumpun Keluarga Besar Puang & Kerabat",
+      "title": "Upacara Syukuran Budaya Toraja Rambu Tuka",
+      "milestone": "Upacara Adat Rambu Tuka Syukuran Rumah Tongkonan Baru",
+      "message": "Kurre Sumanga! Pesta syukuran adat Toraja digelar merayakan berkah berlimpah bagi keluarga besar. Mari berkumpul di bawah naungan atap perahu tongkonan menikmati jamuan persaudaraan yang abadi.",
+      "sender": "Pemangku Adat Tongkonan Layuk Rante Bua",
+      "date": "2026-11-15",
+      "time": "09:00 WITA",
+      "location": "Kompleks Rumah Adat Tongkonan Kete Kesu, Tana Toraja",
+      "rsvp": "Kehadiran keluarga adalah kehormatan bagi leluhur kami.",
+      "font": "font-lora",
+      "tone": "gold",
+      "role": "invitation"
+    },
+    "hawaian-luau-tiki-torch": {
+      "template": "hawaian-luau-tiki-torch",
+      "recipient": "Seluruh Sahabat & Rekan Pantai Tercinta",
+      "title": "Pesta Luau Pantai Tropis Obor Api Tiki",
+      "milestone": "Pesta Luau Tahunan & Syukuran Musim Panas Tropis",
+      "message": "Aloha! Kenakan kemeja motif bungamu dan rasakan hangatnya semilir angin pesisir Pasifik! Nikmati nanas panggang manis, nyala obor tiki bambu, dan irama ukulele riang sepanjang malam.",
+      "sender": "Tuan Rumah: Aloha Beach Crew & Family",
+      "date": "2026-11-28",
+      "time": "17:00 WIB",
+      "location": "Sunset Beach Club & Coconut Grove, Pantai Indah Kapuk",
+      "rsvp": "Dress code: Floral Hawaiian / Tropical Bright. RSVP via WA.",
+      "font": "font-outfit",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "mexican-fiesta-mariachi-maracas": {
+      "template": "mexican-fiesta-mariachi-maracas",
+      "recipient": "Amigos & Familia Tercinta",
+      "title": "Fiesta Rakyat Meksiko Mariachi & Marakas",
+      "milestone": "Pesta Perayaan Akbar Viva La Fiesta & Piñata",
+      "message": "Viva la fiesta! Goyangkan marakasmu dan bernyanyilah bersama kelompok musik Mariachi! Pesta rakyat penuh warna dengan taco hangat, guacamole segar, dan ledakan konfeti pinata menantimu!",
+      "sender": "Anfitriones: Don Carlos & Familia",
+      "date": "2026-11-20",
+      "time": "18:00 WIB",
+      "location": "Hacienda Cantina & Mexican Garden Patio, Kemang",
+      "rsvp": "Bawa semangat bernyanyimu! RSVP via WhatsApp.",
+      "font": "font-plus-jakarta",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "carnival-venice-water-parade": {
+      "template": "carnival-venice-water-parade",
+      "recipient": "Tamu Kehormatan Malam Karnaval Venesia",
+      "title": "Parade Perahu Karnaval Air Venesia",
+      "milestone": "Parade Perahu Akbar Karnaval Air Kota Apung",
+      "message": "Kanal-kanal Venesia berkilau memantulkan cahaya obor dan kembang api air! Saksikan iring-iringan perahu hias megah bertabur bunga lili dan nikmati keajaiban malam karnaval tertua di dunia.",
+      "sender": "Komite Festival Karnaval Venesia & Duta Seni",
+      "date": "2026-10-24",
+      "time": "20:00 CET",
+      "location": "Grand Canal Waterstage & Piazza San Marco Pier, Venice",
+      "rsvp": "Tiket dermaga VIP tersedia. Konfirmasi reservasi.",
+      "font": "font-playfair",
+      "tone": "navy",
+      "role": "invitation"
+    },
+    "harajuku-cyber-jpop-festival": {
+      "template": "harajuku-cyber-jpop-festival",
+      "recipient": "Seluruh Sahabat Pecinta Kultur Populer",
+      "title": "Festival Harajuku Cyber Pop & Neon Rave",
+      "milestone": "Pesta Raya Budaya Pop & Musik Elektronik Harajuku",
+      "message": "Sugoi! Nyalakan glow stick dan melompatlah mengikuti hentakan bass musik J-Pop elektronik terkini! Pesta penuh warna pastel neon, kacamata masa depan, dan energi muda yang membara!",
+      "sender": "Penyelenggara: Harajuku Beat Creators Guild",
+      "date": "2026-11-21",
+      "time": "17:30 WIB",
+      "location": "Tokyo Dome City Cyber Arena & Neon Stage, Jakarta",
+      "rsvp": "Kenakan outfit cyber kawaii favoritmu! RSVP online.",
+      "font": "font-outfit",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "reog-ponorogo-singa-barong": {
+      "template": "reog-ponorogo-singa-barong",
+      "recipient": "Masyarakat Pecinta Seni Budaya Nusantara",
+      "title": "Pagelaran Akbar Seni Reog Ponorogo",
+      "milestone": "Festival Akbar Mahakarya Warisan Budaya Reog",
+      "message": "Hoo-ya! Saksikan kegagahan Singa Barong menopang dadak merak seberat puluhan kilo dalam tarian mistis memukau! Dentingan kempul dan terompet reog menggetarkan sanubari melestarikan warisan leluhur bangsa.",
+      "sender": "Paguyuban Seni Reog Suryo Manggolo & Dinas Kebudayaan",
+      "date": "2026-10-18",
+      "time": "19:30 WIB",
+      "location": "Panggung Terbuka Alun-Alun Ponorogo & Gelanggang Budaya",
+      "rsvp": "Terbuka untuk umum. Kursi kehormatan RSVP panitia.",
+      "font": "font-plus-jakarta",
+      "tone": "gold",
+      "role": "invitation"
+    },
+    "maroccan-desert-caravan-oasis": {
+      "template": "maroccan-desert-caravan-oasis",
+      "recipient": "Tamu Kehormatan Kafilah Sahara",
+      "title": "Kafilah Unta Gurun & Tenda Oasis Magis",
+      "milestone": "Malam Syukuran Persaudaraan Kafilah Gurun Sahara",
+      "message": "Usai menempuh lautan pasir keemasan, kafilah bersandar di oase rimbun nan sejuk. Nikmati sajian tajine hangat, teh mint berbusa manis, dan alunan oud merdu di bawah hamparan galaksi bintang.",
+      "sender": "Kafilah Oasis: Bpk. Tariq Al-Hassan & Kerabat",
+      "date": "2026-11-13",
+      "time": "19:00 WET",
+      "location": "Merzouga Luxury Desert Camp Pavilion, Sahara, Morocco",
+      "rsvp": "Konfirmasi kehadiran via kurir kafilah.",
+      "font": "font-playfair",
+      "tone": "gold",
+      "role": "invitation"
+    },
+    "festival-kembang-api-hanabi-matsuri": {
+      "template": "festival-kembang-api-hanabi-matsuri",
+      "recipient": "Seluruh Pengunjung & Sahabat Festival",
+      "title": "Festival Musim Panas Kembang Api Matsuri",
+      "milestone": "Festival Kembang Api Musim Panas Terbesar Sumidagawa",
+      "message": "Tamaya! Kembang api krisan mekar sempurna melukis kubah langit malam musim panas dalam sejuta percikan emas berkilau. Nikmati apel karamel manis dan kehangatan tawa bersama orang tersayang.",
+      "sender": "Panitia Matsuri: Asosiasi Warga & Maestro Hanabi",
+      "date": "2026-08-01",
+      "time": "19:00 JST",
+      "location": "Sumida Riverbank Hanabi Deck, Asakusa, Tokyo",
+      "rsvp": "Yukata dipersilakan! Tempat duduk tepi sungai RSVP.",
+      "font": "font-outfit",
+      "tone": "rose",
+      "role": "invitation"
+    },
+    "circus-grand-carnival-bigtop": {
+      "template": "circus-grand-carnival-bigtop",
+      "recipient": "Hadirin Yang Berbahagia & Tamu Istimewa",
+      "title": "Panggung Sirkus Akbar Big Top Moulin",
+      "milestone": "Gala Spektakuler Panggung Sirkus Abad Ini",
+      "message": "Ladies and gentlemen! Pertunjukan sirkus terakbar abad ini telah dimulai! Saksikan atraksi akrobatik menegangkan di udara, kelihaian pesulap burung merpati, dan hujan konfeti gemerlap di panggung utama.",
+      "sender": "Ringmaster: The Grand Circus Spectacle",
+      "date": "2026-12-15",
+      "time": "16:00 WIB",
+      "location": "Big Top Grand Pavilion & Circus Arena, Senayan",
+      "rsvp": "Tiket sirkus ring satu siap diambil! RSVP WhatsApp.",
+      "font": "font-plus-jakarta",
+      "tone": "rose",
+      "role": "invitation"
+    }
   };
 
   // Backward compatibility alias keys for quick preset chips
@@ -1819,7 +3319,7 @@
     recipient: "Echa Tersayang",
     title: "Happy Birthday",
     milestone: "Spesial Untuk Sahabat Terbaik 🌸",
-    message: "Di hari yang begitu istimewa ini, aku cuma mau mengucapkan terima kasih yang sebesar-besarnya karena kamu sudah hadir di dunia dan menjadi sahabat yang luar biasa buat aku. Terima kasih untuk setiap tawa lepas kita, sesi curhat larut malam, dan saling menguatkan di kala rapuh. Semoga Allah selalu melimpahkan kesehatan, kebahagiaan tanpa akhir, kelapangan rezeki, dan memudahkan semua impian yang sedang kamu perjuangkan! Tetaplah jadi Echa yang ceria, rendah hati, dan bersinar apa adanya 💕",
+    message: "Di hari yang begitu istimewa ini, aku cuma mau mengucapkan terima kasih yang sebesar-besarnya karena kamu sudah hadir di dunia dan menjadi sahabat yang luar biasa buat aku. Terima kasih untuk setiap tawa lepas kita, sesi curhat larut malam, dan saling menguatkan di kala rapuh. Semoga senantiasa dilimpahkan kesehatan, kebahagiaan tanpa akhir, kelapangan rezeki, dan kemudahan dalam meraih semua impian yang sedang kamu perjuangkan! Tetaplah jadi Echa yang ceria, rendah hati, dan bersinar apa adanya 💕",
     sender: "Dari: Sahabat Terbaikmu 💕",
     date: "2026-10-19",
     time: "15:00 WIB",
@@ -2081,6 +3581,23 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
+  }
+
+  function sanitizeImageUrl(url) {
+    if (!url || typeof url !== "string") return "";
+    const trimmed = url.trim();
+    if (
+      trimmed.startsWith("data:image/") ||
+      /^https?:\/\//i.test(trimmed) ||
+      trimmed.startsWith("/") ||
+      trimmed.startsWith("./")
+    ) {
+      if (/javascript:|data:text|data:application/i.test(trimmed)) {
+        return "";
+      }
+      return escapeHtml(trimmed);
+    }
+    return "";
   }
 
   // =========================================================================
@@ -2588,6 +4105,7 @@
   function setCardRole(role, silent = false) {
     if (role !== "greeting" && role !== "invitation") return;
     state.cardRole = role;
+    invalidateShareUrl();
 
     const isGreeting = role === "greeting";
 
@@ -2941,7 +4459,7 @@
     {
       name: "Nabila Putri ✨",
       status: "Hadir",
-      message: "Barakallah fii umrik Echa cantik! Semoga berkah umurnya, dimudahkan segala urusannya, dan senantiasa dalam lindungan Allah SWT. Aamiin 🌸",
+      message: "Selamat ulang tahun untuk Echa! Semoga senantiasa diberikan kesehatan, kebahagiaan, kesuksesan dalam setiap langkah, serta tercapai seluruh cita-cita dan harapan terbaik. ✨🌸",
       time: "Hari ini, 11:00"
     }
   ];
@@ -3265,7 +4783,7 @@
       html += `
         <div class="gallery-photo-item" data-index="${index}">
           <div class="photo-thumb-wrap">
-            <img src="${photo.url}" alt="Foto ${index + 1}" class="photo-thumb-img">
+            <img src="${sanitizeImageUrl(photo.url)}" alt="Foto ${index + 1}" class="photo-thumb-img">
             <span class="photo-order-tag">#${index + 1}</span>
           </div>
           <div class="photo-fields-wrap">
@@ -3294,6 +4812,7 @@
         capInput.addEventListener("input", (e) => {
           if (state.photos[idx]) {
             state.photos[idx].caption = e.target.value;
+            invalidateShareUrl();
             renderDramaticGallery();
             renderCardPhotosStrip();
             saveDraftToStorage();
@@ -3305,6 +4824,7 @@
         subInput.addEventListener("input", (e) => {
           if (state.photos[idx]) {
             state.photos[idx].sub = e.target.value;
+            invalidateShareUrl();
             renderDramaticGallery();
             saveDraftToStorage();
           }
@@ -3314,6 +4834,7 @@
       if (delBtn) {
         delBtn.addEventListener("click", () => {
           state.photos.splice(idx, 1);
+          invalidateShareUrl();
           renderPhotoUploadList();
           renderDramaticGallery();
           renderCardPhotosStrip();
@@ -3342,7 +4863,7 @@
         <div class="polaroid-card ${polClass} custom-photo" data-photo-index="${index}" role="button" tabindex="0" aria-label="Lihat foto lebih besar: ${escapeHtml(caption)}">
           <div class="washi-tape ${tapeClass}" aria-hidden="true"></div>
           <div class="polaroid-frame">
-            <img src="${photo.url}" alt="${escapeHtml(caption)}" class="polaroid-photo-img" loading="lazy">
+            <img src="${sanitizeImageUrl(photo.url)}" alt="${escapeHtml(caption)}" class="polaroid-photo-img" loading="lazy">
             <span class="polaroid-zoom-badge" aria-hidden="true">🔍</span>
           </div>
           <p class="polaroid-caption">"${escapeHtml(caption)}"</p>
@@ -3382,7 +4903,7 @@
       const shown = state.photos.slice(0, maxThumbs);
       let html = shown.map(p => `
         <div class="card-strip-thumb-item" title="${escapeHtml(p.caption || 'Foto Kenangan')}">
-          <img src="${p.url}" alt="${escapeHtml(p.caption || 'Foto Kenangan')}" loading="lazy">
+          <img src="${sanitizeImageUrl(p.url)}" alt="${escapeHtml(p.caption || 'Foto Kenangan')}" loading="lazy">
         </div>
       `).join("");
       if (state.photos.length > maxThumbs) {
@@ -3397,7 +4918,7 @@
 
   function openPhotoLightbox(photo) {
     if (!dom.galleryLightboxModal || !dom.lightboxImg) return;
-    dom.lightboxImg.src = photo.url;
+    dom.lightboxImg.src = sanitizeImageUrl(photo.url);
     if (dom.lightboxCaption) {
       dom.lightboxCaption.textContent = photo.caption && photo.caption.trim() ? `"${photo.caption.trim()}"` : "";
     }
@@ -3421,6 +4942,7 @@
   function clearAllPhotos() {
     if (!state.photos || state.photos.length === 0) return;
     state.photos = [];
+    invalidateShareUrl();
     renderPhotoUploadList();
     renderDramaticGallery();
     renderCardPhotosStrip();
@@ -3430,6 +4952,7 @@
 
   function loadSamplePhotos() {
     state.photos = JSON.parse(JSON.stringify(SAMPLE_GALLERY_PHOTOS));
+    invalidateShareUrl();
     renderPhotoUploadList();
     renderDramaticGallery();
     renderCardPhotosStrip();
@@ -3438,17 +4961,17 @@
   }
 
   function syncFormWithState() {
-    dom.templateSelect.value = state.template;
-    dom.recipientInput.value = state.recipient;
-    dom.titleInput.value = state.title;
-    dom.milestoneInput.value = state.milestone;
-    dom.messageInput.value = state.message;
-    dom.senderInput.value = state.sender;
-    dom.dateInput.value = state.date;
-    dom.timeInput.value = state.time;
-    dom.locationInput.value = state.location;
-    dom.rsvpInput.value = state.rsvp;
-    dom.fontSelect.value = state.font;
+    dom.templateSelect.value = state.template || "ultah-echa";
+    dom.recipientInput.value = state.recipient || "";
+    dom.titleInput.value = state.title || "";
+    dom.milestoneInput.value = state.milestone || "";
+    dom.messageInput.value = state.message || "";
+    dom.senderInput.value = state.sender || "";
+    dom.dateInput.value = state.date || "";
+    dom.timeInput.value = state.time || "";
+    dom.locationInput.value = state.location || "";
+    dom.rsvpInput.value = state.rsvp || "";
+    dom.fontSelect.value = state.font || "font-playfair";
 
     dom.toneRadios.forEach(radio => {
       radio.checked = radio.value === state.tone;
@@ -3474,7 +4997,7 @@
     if (type === "error") icon = "✕";
     if (type === "info") icon = "ℹ";
 
-    toast.innerHTML = `<span aria-hidden="true" style="font-weight:700;">${icon}</span><span>${message}</span>`;
+    toast.innerHTML = `<span aria-hidden="true" style="font-weight:700;">${icon}</span><span>${escapeHtml(message)}</span>`;
     dom.toastContainer.appendChild(toast);
 
     setTimeout(() => {
@@ -3488,8 +5011,68 @@
   }
 
   // =========================================================================
-  // 8. URL Serialization & Deserialization
+  // 8. URL Serialization & Deserialization (Universal Short & Resilient Links)
   // =========================================================================
+  let cachedShortUrl = null;
+
+  function invalidateShareUrl() {
+    cachedShortUrl = null;
+  }
+
+  function getCleanBaseUrl() {
+    let url = window.location.origin + window.location.pathname;
+    url = url.replace(/\/index\.html$/i, "");
+    return url.replace(/\/+$/, "") + "/";
+  }
+
+  function encodeCompactPayload(payload) {
+    const t = payload.t || "ultah-echa";
+    const preset = TEMPLATE_PRESETS[t] || TEMPLATE_PRESETS["ultah-echa"] || {};
+
+    const clean = { t };
+    if (payload.r && payload.r !== preset.recipient) clean.r = payload.r;
+    if (payload.h && payload.h !== preset.title) clean.h = payload.h;
+    if (payload.m && payload.m !== preset.milestone) clean.m = payload.m;
+    if (payload.msg && payload.msg !== preset.message) clean.msg = payload.msg;
+    if (payload.s && payload.s !== preset.sender) clean.s = payload.s;
+    if (payload.d && payload.d !== preset.date) clean.d = payload.d;
+    if (payload.tm && payload.tm !== preset.time) clean.tm = payload.tm;
+    if (payload.l && payload.l !== preset.location) clean.l = payload.l;
+    if (payload.rsvp && payload.rsvp !== preset.rsvp) clean.rsvp = payload.rsvp;
+    if (payload.f && payload.f !== preset.font && payload.f !== "font-playfair") clean.f = payload.f;
+    if (payload.role && payload.role !== preset.role) clean.role = payload.role;
+
+    if (Array.isArray(payload.photos) && payload.photos.length > 0) {
+      clean.photos = payload.photos
+        .filter(p => p && typeof p === "object" && typeof p.url === "string")
+        .filter(p => p.url.startsWith("http") || p.url.length < 1500)
+        .slice(0, 6);
+    }
+
+    const jsonStr = JSON.stringify(clean);
+    const bytes = new TextEncoder().encode(jsonStr);
+    let binary = "";
+    for (let i = 0; i < bytes.length; i++) {
+      binary += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+
+  function decodeCompactPayload(b64Str) {
+    if (!b64Str || typeof b64Str !== "string") return null;
+    let cleanB64 = b64Str.trim().replace(/ /g, "+").replace(/-/g, "+").replace(/_/g, "/");
+    while (cleanB64.length % 4 !== 0) {
+      cleanB64 += "=";
+    }
+    const binary = atob(cleanB64);
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i++) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+    const jsonStr = new TextDecoder().decode(bytes);
+    return JSON.parse(jsonStr);
+  }
+
   function generateSharePayload() {
     const payload = {
       t: state.template,
@@ -3506,12 +5089,12 @@
       role: state.cardRole,
       photos: state.photos || []
     };
-    return encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(payload)))));
+    return encodeCompactPayload(payload);
   }
 
-  let cachedShortUrl = null;
-
   async function getOrSaveShareableURL() {
+    if (cachedShortUrl) return cachedShortUrl;
+
     const payload = {
       t: state.template,
       r: state.recipient,
@@ -3532,18 +5115,9 @@
       localStorage.setItem("karsa-last-created-card", JSON.stringify(payload));
     } catch (e) {}
 
-    // 1. URL-Safe Base64 Fallback (tanpa '=', penggantian + jadi - dan / jadi _)
-    let urlSafeB64 = "";
-    try {
-      const jsonStr = JSON.stringify(payload);
-      const b64 = btoa(unescape(encodeURIComponent(jsonStr)));
-      urlSafeB64 = b64.replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-    } catch (e) {}
+    const baseUrl = getCleanBaseUrl();
 
-    const baseUrl = window.location.href.split("#")[0].split("?")[0].replace(/\/+$/, "") + "/";
-    const fallbackUrl = `${baseUrl}?card=${urlSafeB64}`;
-
-    // 2. Simpan ke Backend Server untuk Tautan Pendek Bersih & Tahan Potongan WhatsApp
+    // 1. Coba simpan ke Backend Server Origin Saat Ini
     try {
       const response = await fetch("/api/card/save", {
         method: "POST",
@@ -3558,15 +5132,47 @@
         }
       }
     } catch (err) {
-      console.warn("Gagal menyimpan kartu ke server, beralih ke fallback base64 URL-safe:", err);
+      console.warn("Gagal menyimpan ke server origin, mencoba cloud endpoint:", err);
     }
 
-    return fallbackUrl;
+    // 2. Coba simpan ke Public Central Cloud API (pagram.my.id) untuk deployment GitHub Pages / Domain Statis
+    try {
+      const centralRes = await fetch("https://pagram.my.id/api/card/save", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ card: payload }),
+        mode: "cors"
+      });
+      if (centralRes.ok) {
+        const res = await centralRes.json();
+        if (res.success && res.id) {
+          cachedShortUrl = `${baseUrl}?c=${res.id}`;
+          return cachedShortUrl;
+        }
+      }
+    } catch (err) {
+      console.warn("Gagal simpan ke central cloud API:", err);
+    }
+
+    // 3. Fallback Client-Side Compact Delta Encoding (Super Ringkas, Tahan Potongan WhatsApp & Tanpa Server)
+    try {
+      const compactB64 = encodeCompactPayload(payload);
+      cachedShortUrl = `${baseUrl}?c=d-${compactB64}`;
+      return cachedShortUrl;
+    } catch (err) {
+      console.warn("Gagal generate compact URL:", err);
+    }
+
+    // 4. Fallback Terakhir
+    const jsonStr = JSON.stringify(payload);
+    const b64 = btoa(unescape(encodeURIComponent(jsonStr))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+    cachedShortUrl = `${baseUrl}?c=d-${b64}`;
+    return cachedShortUrl;
   }
 
   function getShareableURL() {
     if (cachedShortUrl) return cachedShortUrl;
-    const baseUrl = window.location.href.split("#")[0].split("?")[0].replace(/\/+$/, "") + "/";
+    const baseUrl = getCleanBaseUrl();
     const payload = {
       t: state.template,
       r: state.recipient,
@@ -3583,10 +5189,8 @@
       photos: state.photos || []
     };
     try {
-      const jsonStr = JSON.stringify(payload);
-      const b64 = btoa(unescape(encodeURIComponent(jsonStr)));
-      const urlSafeB64 = b64.replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-      return `${baseUrl}?card=${urlSafeB64}`;
+      const compactB64 = encodeCompactPayload(payload);
+      return `${baseUrl}?c=d-${compactB64}`;
     } catch (e) {
       return baseUrl;
     }
@@ -3598,20 +5202,52 @@
       const urlObj = new URL(window.location.href);
 
       // 1. Cek parameter tautan pendek (?c=... atau ?id=...)
-      const shortId = urlObj.searchParams.get("c") || urlObj.searchParams.get("id");
+      let shortId = urlObj.searchParams.get("c") || urlObj.searchParams.get("id");
+      if (!shortId && window.location.hash) {
+        const hashMatch = window.location.hash.match(/[#&](?:c|id)=([^&#]+)/);
+        if (hashMatch) shortId = hashMatch[1];
+      }
+
       if (shortId) {
-        const cleanId = shortId.replace(/[^a-zA-Z0-9-_]/g, "");
-        if (cleanId) {
+        // A. Cek apakah ini format compact client-side (prefix d-)
+        if (shortId.startsWith("d-")) {
+          const rawB64 = shortId.substring(2);
           try {
-            const res = await fetch(`/api/card?id=${cleanId}`);
-            if (res.ok) {
-              data = await res.json();
-            } else {
-              const res2 = await fetch(`cards/${cleanId}.json`);
-              if (res2.ok) data = await res2.json();
+            data = decodeCompactPayload(rawB64);
+          } catch (e1) {
+            try {
+              let clean = rawB64.replace(/ /g, "+").replace(/-/g, "+").replace(/_/g, "/");
+              while (clean.length % 4 !== 0) clean += "=";
+              data = JSON.parse(decodeURIComponent(escape(atob(clean))));
+            } catch (e2) {
+              console.warn("Gagal mendecode payload compact d-:", e2);
             }
-          } catch (e) {
-            console.warn("Gagal mengambil data kartu dari server:", e);
+          }
+        } else {
+          // B. Tautan ID server: coba lokal, cards file, dan central API
+          const cleanId = shortId.replace(/[^a-zA-Z0-9-_]/g, "");
+          if (cleanId) {
+            // 1. Coba API lokal
+            try {
+              const res = await fetch(`/api/card?id=${cleanId}`);
+              if (res.ok) data = await res.json();
+            } catch (e) {}
+
+            // 2. Coba static file lokal
+            if (!data) {
+              try {
+                const res2 = await fetch(`cards/${cleanId}.json`);
+                if (res2.ok) data = await res2.json();
+              } catch (e) {}
+            }
+
+            // 3. Coba remote central API (pagram.my.id) untuk deployment GitHub Pages / Domain Statis
+            if (!data) {
+              try {
+                const res3 = await fetch(`https://pagram.my.id/api/card?id=${cleanId}`, { mode: "cors" });
+                if (res3.ok) data = await res3.json();
+              } catch (e) {}
+            }
           }
         }
       }
@@ -3624,40 +5260,74 @@
           if (match) raw = match[1];
         }
         if (!raw && window.location.hash && window.location.hash.includes("card=")) {
-          const match = window.location.hash.match(/#card=([^&#]+)/);
+          const match = window.location.hash.match(/[#&]card=([^&#]+)/);
           if (match) raw = match[1];
         }
 
         if (raw) {
           raw = raw.split("&")[0].split("#")[0];
-          let cleanB64 = decodeURIComponent(raw).replace(/ /g, "+").replace(/-/g, "+").replace(/_/g, "/");
-          while (cleanB64.length % 4 !== 0) {
-            cleanB64 += "=";
+          try {
+            data = decodeCompactPayload(raw);
+          } catch (e1) {
+            try {
+              let clean = raw.replace(/ /g, "+").replace(/-/g, "+").replace(/_/g, "/");
+              while (clean.length % 4 !== 0) clean += "=";
+              data = JSON.parse(decodeURIComponent(escape(atob(clean))));
+            } catch (e2) {
+              console.warn("Gagal decode parameter card:", e2);
+            }
           }
-          const jsonStr = decodeURIComponent(escape(atob(cleanB64)));
-          data = JSON.parse(jsonStr);
         }
+      }
+
+      // 3. Jaminan Mode Penerima: Jika URL memiliki parameter c / card namun gagal terambil / terpotong oleh chat,
+      // jangan pernah membuang penerima ke dashboard editor! Sediakan fallback ucapan perayaan yang anggun.
+      const hasUrlParam = Boolean(shortId || urlObj.searchParams.has("card") || window.location.href.includes("?card=") || window.location.href.includes("?c="));
+      if (!data && hasUrlParam) {
+        data = {
+          t: "ultah-echa",
+          r: "Sahabat Teristimewa",
+          h: "Selamat Ulang Tahun",
+          m: "Spesial Untukmu 🌸",
+          msg: "Semoga di hari yang begitu istimewa dan penuh kebahagiaan ini, seluruh doa baik, kesehatan, keberkahan, dan senyuman senantiasa menyertaimu!",
+          s: "Dari: Sahabat Terbaikmu 💕",
+          role: "invitation"
+        };
       }
 
       if (!data) return false;
 
-      // Sinkronisasi data ke state aplikasi
-      if (data.t) state.template = data.t;
-      if (data.r) state.recipient = data.r;
-      if (data.h) state.title = data.h;
-      if (data.m) state.milestone = data.m;
-      if (data.msg) state.message = data.msg;
-      if (data.s) state.sender = data.s;
-      if (data.d) state.date = data.d;
-      if (data.tm) state.time = data.tm;
-      if (data.l) state.location = data.l;
-      if (data.rsvp) state.rsvp = data.rsvp;
-      if (data.f) state.font = data.f;
-      if (data.role) state.cardRole = data.role === "greeting" ? "greeting" : "invitation";
-      if (data.photos && Array.isArray(data.photos)) {
-        state.photos = data.photos;
-      } else if (data.p && Array.isArray(data.p)) {
-        state.photos = data.p;
+      // Sinkronisasi data ke state aplikasi dengan validasi & sanitasi ketat (Delta Decoding)
+      const templateKey = (data.t && TEMPLATE_PRESETS[data.t]) ? data.t : "ultah-echa";
+      const preset = TEMPLATE_PRESETS[templateKey] || {};
+
+      state.template = templateKey;
+      state.recipient = (data.r != null && data.r !== "") ? String(data.r).slice(0, 100) : (preset.recipient || "Sahabat");
+      state.title = (data.h != null && data.h !== "") ? String(data.h).slice(0, 120) : (preset.title || "Selamat Ulang Tahun");
+      state.milestone = (data.m != null && data.m !== "") ? String(data.m).slice(0, 120) : (preset.milestone || "");
+      state.message = (data.msg != null && data.msg !== "") ? String(data.msg).slice(0, 1500) : (preset.message || "");
+      state.sender = (data.s != null && data.s !== "") ? String(data.s).slice(0, 100) : (preset.sender || "");
+      state.date = (data.d != null && data.d !== "") ? String(data.d).slice(0, 20) : (preset.date || "");
+      state.time = (data.tm != null && data.tm !== "") ? String(data.tm).slice(0, 50) : (preset.time || "");
+      state.location = (data.l != null && data.l !== "") ? String(data.l).slice(0, 150) : (preset.location || "");
+      state.rsvp = (data.rsvp != null && data.rsvp !== "") ? String(data.rsvp).slice(0, 250) : (preset.rsvp || "");
+      if (data.f && typeof data.f === "string") {
+        const allowedFonts = ["font-playfair", "font-sans", "font-serif", "font-cinzel", "font-cormorant", "font-dancing", "font-inter", "font-outfit", "font-poppins"];
+        state.font = allowedFonts.includes(data.f) ? data.f : (preset.font || "font-playfair");
+      } else {
+        state.font = preset.font || "font-playfair";
+      }
+      state.cardRole = data.role ? (data.role === "greeting" ? "greeting" : "invitation") : (preset.role || "invitation");
+
+      const rawPhotos = Array.isArray(data.photos) ? data.photos : (Array.isArray(data.p) ? data.p : null);
+      if (rawPhotos) {
+        state.photos = rawPhotos.slice(0, 6)
+          .filter(p => p && typeof p === "object" && typeof p.url === "string" && sanitizeImageUrl(p.url))
+          .map(p => ({
+            url: sanitizeImageUrl(p.url),
+            caption: String(p.caption || "").slice(0, 80),
+            sub: String(p.sub || "").slice(0, 60)
+          }));
       }
 
       state.isRecipientView = true;
@@ -3716,10 +5386,22 @@
     state.isRecipientView = true;
     document.body.classList.add("recipient-mode");
 
-    // Sembunyikan elemen pembuat kartu, navbar, katalog & studio editor
+    // Sembunyikan elemen pembuat kartu, navbar, header, katalog & studio editor
     if (dom.recipientBanner) dom.recipientBanner.classList.add("hidden");
     const editorSec = document.getElementById("studio-editor");
     if (editorSec) editorSec.classList.add("hidden");
+    const catalogSec = document.getElementById("katalog");
+    if (catalogSec) catalogSec.classList.add("hidden");
+    const heroSec = document.querySelector(".hero-section");
+    if (heroSec) heroSec.classList.add("hidden");
+    const stepsSec = document.getElementById("cara-kerja");
+    if (stepsSec) stepsSec.classList.add("hidden");
+    const faqSec = document.getElementById("faq");
+    if (faqSec) faqSec.classList.add("hidden");
+    const siteHeader = document.querySelector(".site-header");
+    if (siteHeader) siteHeader.classList.add("hidden");
+    const siteFooter = document.querySelector(".site-footer");
+    if (siteFooter) siteFooter.classList.add("hidden");
 
     // Pastikan tombol atau banner pemilih mode tidak pernah ada di halaman penerima
     document.querySelectorAll("#btn-toggle-dramatic-role, #btn-switch-dramatic-role, #dramatic-role-banner, .floating-role-btn, .role-switch-btn").forEach(el => el.remove());
@@ -3746,6 +5428,18 @@
     if (dom.recipientBanner) dom.recipientBanner.classList.add("hidden");
     const editorSec = document.getElementById("studio-editor");
     if (editorSec) editorSec.classList.remove("hidden");
+    const catalogSec = document.getElementById("katalog");
+    if (catalogSec) catalogSec.classList.remove("hidden");
+    const heroSec = document.querySelector(".hero-section");
+    if (heroSec) heroSec.classList.remove("hidden");
+    const stepsSec = document.getElementById("cara-kerja");
+    if (stepsSec) stepsSec.classList.remove("hidden");
+    const faqSec = document.getElementById("faq");
+    if (faqSec) faqSec.classList.remove("hidden");
+    const siteHeader = document.querySelector(".site-header");
+    if (siteHeader) siteHeader.classList.remove("hidden");
+    const siteFooter = document.querySelector(".site-footer");
+    if (siteFooter) siteFooter.classList.remove("hidden");
 
     // Bersihkan parameter query dari URL agar user dapat menjelajah katalog secara normal
     if (window.history && window.history.replaceState) {
@@ -3757,12 +5451,10 @@
     renderCard();
 
     if (target === "catalog") {
-      const cat = document.getElementById("katalog");
-      if (cat) cat.scrollIntoView({ behavior: "smooth" });
+      if (catalogSec) catalogSec.scrollIntoView({ behavior: "smooth" });
       showToast("Selamat datang di Katalog Template! Pilih desain untuk membuat kartu Anda sendiri.", "info");
     } else if (target === "editor") {
-      const ed = document.getElementById("studio-editor");
-      if (ed) ed.scrollIntoView({ behavior: "smooth" });
+      if (editorSec) editorSec.scrollIntoView({ behavior: "smooth" });
       showToast("Studio Editor aktif. Anda dapat mengubah teks dan rincian kartu.", "info");
     }
   }
@@ -4560,6 +6252,606 @@
       text = "#fefce8";
       accent = "#ca8a04";
       border = "#ca8a04";
+    } else if (state.template === "cyber-hologram-party") {
+      bg = "#081427";
+      primary = "#06b6d4";
+      text = "#ecfeff";
+      accent = "#f43f5e";
+      border = "#0891b2";
+    } else if (state.template === "safari-jungle-carnival") {
+      bg = "#0c2616";
+      primary = "#10b981";
+      text = "#f0fdf4";
+      accent = "#f59e0b";
+      border = "#059669";
+    } else if (state.template === "magic-wizard-academy") {
+      bg = "#140d33";
+      primary = "#818cf8";
+      text = "#f5f3ff";
+      accent = "#fbbf24";
+      border = "#6366f1";
+    } else if (state.template === "candy-wonderland-pop") {
+      bg = "#2e0b20";
+      primary = "#ec4899";
+      text = "#fff1f2";
+      accent = "#38bdf8";
+      border = "#db2777";
+    } else if (state.template === "pirate-treasure-island") {
+      bg = "#0a1f36";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#eab308";
+      border = "#0284c7";
+    } else if (state.template === "supercar-speed-grand-prix") {
+      bg = "#200909";
+      primary = "#ef4444";
+      text = "#fef2f2";
+      accent = "#facc15";
+      border = "#dc2626";
+    } else if (state.template === "space-alien-ufo-odyssey") {
+      bg = "#150630";
+      primary = "#a855f7";
+      text = "#faf5ff";
+      accent = "#84cc16";
+      border = "#9333ea";
+    } else if (state.template === "mermaid-underwater-coral") {
+      bg = "#08252b";
+      primary = "#2dd4bf";
+      text = "#f0fdfa";
+      accent = "#f472b6";
+      border = "#0d9488";
+    } else if (state.template === "super-chef-cooking-gala") {
+      bg = "#291005";
+      primary = "#f97316";
+      text = "#fff7ed";
+      accent = "#facc15";
+      border = "#c2410c";
+    } else if (state.template === "golden-balloon-fiesta") {
+      bg = "#1f1304";
+      primary = "#facc15";
+      text = "#fefce8";
+      accent = "#f43f5e";
+      border = "#ca8a04";
+    } else if (state.template === "aurora-boreal-nordic-love") {
+      bg = "#061e21";
+      primary = "#34d399";
+      text = "#ecfdf5";
+      accent = "#38bdf8";
+      border = "#059669";
+    } else if (state.template === "venice-gondola-serenade") {
+      bg = "#0d1933";
+      primary = "#60a5fa";
+      text = "#eff6ff";
+      accent = "#f59e0b";
+      border = "#2563eb";
+    } else if (state.template === "autumn-maple-whisper") {
+      bg = "#210c04";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#facc15";
+      border = "#c2410c";
+    } else if (state.template === "diamond-forever-jubilee") {
+      bg = "#0d1c33";
+      primary = "#7dd3fc";
+      text = "#f0f9ff";
+      accent = "#facc15";
+      border = "#0284c7";
+    } else if (state.template === "santorini-sunset-bliss") {
+      bg = "#0a1f38";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#f97316";
+      border = "#0284c7";
+    } else if (state.template === "moonlight-lake-swan") {
+      bg = "#0d172e";
+      primary = "#818cf8";
+      text = "#eef2ff";
+      accent = "#f472b6";
+      border = "#4f46e5";
+    } else if (state.template === "tuscany-vineyard-romance") {
+      bg = "#210711";
+      primary = "#fb7185";
+      text = "#fff1f2";
+      accent = "#a3e635";
+      border = "#be123c";
+    } else if (state.template === "stargazing-celestial-dome") {
+      bg = "#0d1029";
+      primary = "#818cf8";
+      text = "#eef2ff";
+      accent = "#fbbf24";
+      border = "#4f46e5";
+    } else if (state.template === "ruby-40th-anniversary") {
+      bg = "#21060d";
+      primary = "#fb7185";
+      text = "#fff1f2";
+      accent = "#facc15";
+      border = "#be123c";
+    } else if (state.template === "casablanca-mon-amour") {
+      bg = "#1c1208";
+      primary = "#f59e0b";
+      text = "#fffbeb";
+      accent = "#f43f5e";
+      border = "#b45309";
+    } else if (state.template === "aceh-pinto-khop-mahkota") {
+      bg = "#24080e";
+      primary = "#facc15";
+      text = "#fff1f2";
+      accent = "#e11d48";
+      border = "#be123c";
+    } else if (state.template === "banjar-baamar-alas") {
+      bg = "#0a2415";
+      primary = "#facc15";
+      text = "#f0fdf4";
+      accent = "#16a34a";
+      border = "#15803d";
+    } else if (state.template === "lampung-siger-agung") {
+      bg = "#260a12";
+      primary = "#fde047";
+      text = "#fef2f2";
+      accent = "#dc2626";
+      border = "#b91c1c";
+    } else if (state.template === "papua-cendrawasih-harmony") {
+      bg = "#1c1106";
+      primary = "#fbbf24";
+      text = "#fffbeb";
+      accent = "#22c55e";
+      border = "#b45309";
+    } else if (state.template === "cinderella-glass-carriage") {
+      bg = "#0e1d38";
+      primary = "#93c5fd";
+      text = "#f8fafc";
+      accent = "#f472b6";
+      border = "#2563eb";
+    } else if (state.template === "gothic-victorian-glamour") {
+      bg = "#17050b";
+      primary = "#fb7185";
+      text = "#fff1f2";
+      accent = "#cbd5e1";
+      border = "#881337";
+    } else if (state.template === "moroccan-tent-oasis") {
+      bg = "#210d06";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#06b6d4";
+      border = "#c2410c";
+    } else if (state.template === "zen-shinto-bamboo-wedding") {
+      bg = "#0e2617";
+      primary = "#86efac";
+      text = "#f0fdf4";
+      accent = "#ef4444";
+      border = "#15803d";
+    } else if (state.template === "bohemian-macrame-sunset") {
+      bg = "#21130a";
+      primary = "#f59e0b";
+      text = "#fffbeb";
+      accent = "#ea580c";
+      border = "#b45309";
+    } else if (state.template === "celestial-galaxy-nuptials") {
+      bg = "#100b30";
+      primary = "#a78bfa";
+      text = "#f5f3ff";
+      accent = "#38bdf8";
+      border = "#6d28d9";
+    } else if (state.template === "maritime-kapten-pelayaran") {
+      bg = "#091c33";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#fbbf24";
+      border = "#0284c7";
+    } else if (state.template === "culinary-arts-mastery") {
+      bg = "#1f1006";
+      primary = "#f59e0b";
+      text = "#fffbeb";
+      accent = "#facc15";
+      border = "#b45309";
+    } else if (state.template === "veterinary-animal-healer") {
+      bg = "#0b2415";
+      primary = "#4ade80";
+      text = "#f0fdf4";
+      accent = "#fbbf24";
+      border = "#16a34a";
+    } else if (state.template === "music-conservatory-maestro") {
+      bg = "#1f0b06";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#facc15";
+      border = "#c2410c";
+    } else if (state.template === "aerospace-rocket-engineer") {
+      bg = "#09192e";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#f97316";
+      border = "#0284c7";
+    } else if (state.template === "fine-arts-sculptor-studio") {
+      bg = "#1c0e12";
+      primary = "#fb7185";
+      text = "#fff1f2";
+      accent = "#38bdf8";
+      border = "#be123c";
+    } else if (state.template === "diplomatic-international-relations") {
+      bg = "#0a162e";
+      primary = "#60a5fa";
+      text = "#eff6ff";
+      accent = "#facc15";
+      border = "#1d4ed8";
+    } else if (state.template === "cyber-security-hacker-defense") {
+      bg = "#051c0d";
+      primary = "#4ade80";
+      text = "#f0fdf4";
+      accent = "#38bdf8";
+      border = "#16a34a";
+    } else if (state.template === "environmental-green-forestry") {
+      bg = "#082415";
+      primary = "#86efac";
+      text = "#f0fdf4";
+      accent = "#fbbf24";
+      border = "#15803d";
+    } else if (state.template === "astronomy-astrophysics-phd") {
+      bg = "#1a082e";
+      primary = "#c084fc";
+      text = "#faf5ff";
+      accent = "#fde047";
+      border = "#7e22ce";
+    } else if (state.template === "festival-lampion-terbang") {
+      bg = "#0e1336";
+      primary = "#fbbf24";
+      text = "#fefce8";
+      accent = "#f97316";
+      border = "#ca8a04";
+    } else if (state.template === "tahfidz-quran-khataman") {
+      bg = "#092417";
+      primary = "#facc15";
+      text = "#f0fdf4";
+      accent = "#10b981";
+      border = "#059669";
+    } else if (state.template === "housewarming-villa-tropis") {
+      bg = "#092625";
+      primary = "#2dd4bf";
+      text = "#f0fdfa";
+      accent = "#f59e0b";
+      border = "#0f766e";
+    } else if (state.template === "pesta-barbeque-pantai") {
+      bg = "#210a04";
+      primary = "#f97316";
+      text = "#fff7ed";
+      accent = "#38bdf8";
+      border = "#c2410c";
+    } else if (state.template === "carnival-rio-samba") {
+      bg = "#260714";
+      primary = "#f43f5e";
+      text = "#fff1f2";
+      accent = "#facc15";
+      border = "#be123c";
+    } else if (state.template === "pesta-taman-vintage-tea") {
+      bg = "#1f1017";
+      primary = "#f472b6";
+      text = "#fff1f2";
+      accent = "#86efac";
+      border = "#be185d";
+    } else if (state.template === "inagurasi-ceo-korporat") {
+      bg = "#09152b";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#fb7185";
+      border = "#0284c7";
+    } else if (state.template === "festival-layang-layang-pantai") {
+      bg = "#082138";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#f43f5e";
+      border = "#0284c7";
+    } else if (state.template === "oktoberfest-bavarian-cheers") {
+      bg = "#0d1e3d";
+      primary = "#60a5fa";
+      text = "#eff6ff";
+      accent = "#eab308";
+      border = "#2563eb";
+    } else if (state.template === "festival-kembang-api-milenium") {
+      bg = "#1c092c";
+      primary = "#f43f5e";
+      text = "#fff1f2";
+      accent = "#38bdf8";
+      border = "#be123c";
+    } else if (state.template === "neon-roller-skating-rink") {
+      bg = "#09031c";
+      primary = "#f43f5e";
+      text = "#fff1f2";
+      accent = "#22d3ee";
+      border = "#e11d48";
+    } else if (state.template === "dino-jurassic-safari-expedition") {
+      bg = "#071f12";
+      primary = "#22c55e";
+      text = "#f0fdf4";
+      accent = "#eab308";
+      border = "#16a34a";
+    } else if (state.template === "magic-potion-alchemy-party") {
+      bg = "#15082b";
+      primary = "#c084fc";
+      text = "#faf5ff";
+      accent = "#38bdf8";
+      border = "#9333ea";
+    } else if (state.template === "superhero-comic-city-defense") {
+      bg = "#1a0808";
+      primary = "#ef4444";
+      text = "#fef2f2";
+      accent = "#facc15";
+      border = "#dc2626";
+    } else if (state.template === "kawaii-boba-pastel-tea") {
+      bg = "#2b0b1c";
+      primary = "#f472b6";
+      text = "#fff1f2";
+      accent = "#fbbf24";
+      border = "#db2777";
+    } else if (state.template === "karting-championship-raceway") {
+      bg = "#121010";
+      primary = "#f97316";
+      text = "#fff7ed";
+      accent = "#eab308";
+      border = "#ea580c";
+    } else if (state.template === "space-rover-mars-colonizer") {
+      bg = "#240a08";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#38bdf8";
+      border = "#c2410c";
+    } else if (state.template === "fairy-enchanted-woodland-glade") {
+      bg = "#0c1a17";
+      primary = "#34d399";
+      text = "#ecfdf5";
+      accent = "#f472b6";
+      border = "#059669";
+    } else if (state.template === "aquarium-sea-turtle-reef") {
+      bg = "#031c26";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#2dd4bf";
+      border = "#0284c7";
+    } else if (state.template === "pirate-skull-island-voyage") {
+      bg = "#0b1726";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#eab308";
+      border = "#0369a1";
+    } else if (state.template === "bali-puri-royal-agung") {
+      bg = "#1a0f05";
+      primary = "#facc15";
+      text = "#fefce8";
+      accent = "#f97316";
+      border = "#ca8a04";
+    } else if (state.template === "betawi-palang-pintu-delman") {
+      bg = "#1c0a0c";
+      primary = "#f43f5e";
+      text = "#fff1f2";
+      accent = "#eab308";
+      border = "#be123c";
+    } else if (state.template === "dayak-hudoq-borneo-royalty") {
+      bg = "#140d08";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#ca8a04";
+      border = "#9a3412";
+    } else if (state.template === "makassar-baju-bodo-silk") {
+      bg = "#081a12";
+      primary = "#34d399";
+      text = "#ecfdf5";
+      accent = "#facc15";
+      border = "#059669";
+    } else if (state.template === "kyoto-shinto-zen-sanctuary") {
+      bg = "#1f0b0d";
+      primary = "#f87171";
+      text = "#fef2f2";
+      accent = "#ca8a04";
+      border = "#dc2626";
+    } else if (state.template === "santorini-cliffside-bougainvillea") {
+      bg = "#08172c";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#f43f5e";
+      border = "#0284c7";
+    } else if (state.template === "art-deco-great-gatsby-gala") {
+      bg = "#0f0f12";
+      primary = "#facc15";
+      text = "#fefce8";
+      accent = "#e2e8f0";
+      border = "#ca8a04";
+    } else if (state.template === "provence-lavender-sunflower-meadow") {
+      bg = "#160e22";
+      primary = "#c084fc";
+      text = "#faf5ff";
+      accent = "#facc15";
+      border = "#9333ea";
+    } else if (state.template === "castle-fairytale-enchanted-gates") {
+      bg = "#120924";
+      primary = "#e879f9";
+      text = "#fdf4ff";
+      accent = "#facc15";
+      border = "#a21caf";
+    } else if (state.template === "crystal-cathedral-stained-glass") {
+      bg = "#0b1226";
+      primary = "#60a5fa";
+      text = "#eff6ff";
+      accent = "#f472b6";
+      border = "#2563eb";
+    } else if (state.template === "sapphire-45th-royal-jubilee") {
+      bg = "#07152d";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#e2e8f0";
+      border = "#0284c7";
+    } else if (state.template === "emerald-55th-eternal-devotion") {
+      bg = "#061f14";
+      primary = "#34d399";
+      text = "#ecfdf5";
+      accent = "#ca8a04";
+      border = "#059669";
+    } else if (state.template === "starlight-rooftop-acoustic-duet") {
+      bg = "#180d16";
+      primary = "#f472b6";
+      text = "#fdf2f8";
+      accent = "#facc15";
+      border = "#be185d";
+    } else if (state.template === "venetian-carnival-duet-masque") {
+      bg = "#1c081e";
+      primary = "#e879f9";
+      text = "#fdf4ff";
+      accent = "#ca8a04";
+      border = "#a21caf";
+    } else if (state.template === "cozy-log-cabin-autumn-embers") {
+      bg = "#1f0f08";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#eab308";
+      border = "#c2410c";
+    } else if (state.template === "hot-air-balloon-cappadocia-sunrise") {
+      bg = "#1a0f1e";
+      primary = "#fb7185";
+      text = "#fff1f2";
+      accent = "#facc15";
+      border = "#e11d48";
+    } else if (state.template === "moonlit-waterfall-serenade") {
+      bg = "#071926";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#2dd4bf";
+      border = "#0284c7";
+    } else if (state.template === "amalfi-coast-lemon-terrace") {
+      bg = "#081d1c";
+      primary = "#2dd4bf";
+      text = "#f0fdfa";
+      accent = "#facc15";
+      border = "#0f766e";
+    } else if (state.template === "tahiti-overwater-bungalow-sunset") {
+      bg = "#1f0b1a";
+      primary = "#f43f5e";
+      text = "#fff1f2";
+      accent = "#38bdf8";
+      border = "#be123c";
+    } else if (state.template === "golden-record-timeless-melody") {
+      bg = "#171008";
+      primary = "#facc15";
+      text = "#fefce8";
+      accent = "#f97316";
+      border = "#ca8a04";
+    } else if (state.template === "aviation-flight-captain-wings") {
+      bg = "#091326";
+      primary = "#38bdf8";
+      text = "#f0f9ff";
+      accent = "#facc15";
+      border = "#0284c7";
+    } else if (state.template === "marine-oceanography-deep-dive") {
+      bg = "#031b24";
+      primary = "#2dd4bf";
+      text = "#f0fdfa";
+      accent = "#38bdf8";
+      border = "#0f766e";
+    } else if (state.template === "petroleum-mining-engineering-gold") {
+      bg = "#190f05";
+      primary = "#f59e0b";
+      text = "#fffbeb";
+      accent = "#ef4444";
+      border = "#b45309";
+    } else if (state.template === "neurology-brain-neuroscience-pulse") {
+      bg = "#09122c";
+      primary = "#818cf8";
+      text = "#f5f3ff";
+      accent = "#38bdf8";
+      border = "#4f46e5";
+    } else if (state.template === "quantum-computing-physicist") {
+      bg = "#12092b";
+      primary = "#c084fc";
+      text = "#faf5ff";
+      accent = "#22d3ee";
+      border = "#7e22ce";
+    } else if (state.template === "agricultural-agronomy-green-harvest") {
+      bg = "#0c1e0e";
+      primary = "#4ade80";
+      text = "#f0fdf4";
+      accent = "#facc15";
+      border = "#16a34a";
+    } else if (state.template === "culinary-pastry-chef-patisserie") {
+      bg = "#220e0c";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#facc15";
+      border = "#c2410c";
+    } else if (state.template === "journalism-broadcast-media-producer") {
+      bg = "#1c080a";
+      primary = "#ef4444";
+      text = "#fef2f2";
+      accent = "#38bdf8";
+      border = "#b91c1c";
+    } else if (state.template === "civil-infrastructure-bridge-builder") {
+      bg = "#0b1424";
+      primary = "#60a5fa";
+      text = "#eff6ff";
+      accent = "#f59e0b";
+      border = "#2563eb";
+    } else if (state.template === "cyber-forensics-security-analyst") {
+      bg = "#051a0d";
+      primary = "#22c55e";
+      text = "#f0fdf4";
+      accent = "#38bdf8";
+      border = "#15803d";
+    } else if (state.template === "barongsai-lion-dance-festival") {
+      bg = "#240509";
+      primary = "#facc15";
+      text = "#fff1f2";
+      accent = "#dc2626";
+      border = "#dc2626";
+    } else if (state.template === "toraja-rambu-solo-kabana") {
+      bg = "#1f0d06";
+      primary = "#f97316";
+      text = "#fff7ed";
+      accent = "#ca8a04";
+      border = "#9a3412";
+    } else if (state.template === "hawaian-luau-tiki-torch") {
+      bg = "#240f06";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#facc15";
+      border = "#ea580c";
+    } else if (state.template === "mexican-fiesta-mariachi-maracas") {
+      bg = "#1f0b13";
+      primary = "#f43f5e";
+      text = "#fff1f2";
+      accent = "#22c55e";
+      border = "#e11d48";
+    } else if (state.template === "carnival-venice-water-parade") {
+      bg = "#0c152e";
+      primary = "#818cf8";
+      text = "#f5f3ff";
+      accent = "#facc15";
+      border = "#4f46e5";
+    } else if (state.template === "harajuku-cyber-jpop-festival") {
+      bg = "#1a0429";
+      primary = "#ec4899";
+      text = "#fdf2f8";
+      accent = "#22d3ee";
+      border = "#be185d";
+    } else if (state.template === "reog-ponorogo-singa-barong") {
+      bg = "#1c0e05";
+      primary = "#f59e0b";
+      text = "#fef3c7";
+      accent = "#ef4444";
+      border = "#b45309";
+    } else if (state.template === "maroccan-desert-caravan-oasis") {
+      bg = "#201107";
+      primary = "#fb923c";
+      text = "#fff7ed";
+      accent = "#ca8a04";
+      border = "#c2410c";
+    } else if (state.template === "festival-kembang-api-hanabi-matsuri") {
+      bg = "#140521";
+      primary = "#f43f5e";
+      text = "#fff1f2";
+      accent = "#facc15";
+      border = "#be123c";
+    } else if (state.template === "circus-grand-carnival-bigtop") {
+      bg = "#1f070e";
+      primary = "#e11d48";
+      text = "#fff1f2";
+      accent = "#facc15";
+      border = "#be123c";
     }
 
     // 1. Draw Canvas Background
@@ -4616,27 +6908,40 @@
       ctx.fillText(state.milestone, 600, 435);
     }
 
-    // 6. Message Block (Multi-line wrap)
+    // 6. Message Block (Multi-line wrap with paragraph support)
     ctx.fillStyle = text;
     ctx.font = "24px 'Plus Jakarta Sans', sans-serif";
     const maxWidth = 860;
-    const words = state.message.split(" ");
-    let line = "";
+    const paragraphs = (state.message || "").split(/\r?\n/);
     let y = 500;
 
-    for (let n = 0; n < words.length; n++) {
-      const testLine = line + words[n] + " ";
-      const metrics = ctx.measureText(testLine);
-      const testWidth = metrics.width;
-      if (testWidth > maxWidth && n > 0) {
-        ctx.fillText(line, 600, y);
-        line = words[n] + " ";
-        y += 36;
-      } else {
-        line = testLine;
+    for (let p = 0; p < paragraphs.length; p++) {
+      const para = paragraphs[p].trim();
+      if (!para) {
+        y += 18;
+        continue;
+      }
+      const words = para.split(" ");
+      let line = "";
+      for (let n = 0; n < words.length; n++) {
+        const testLine = line + words[n] + " ";
+        const metrics = ctx.measureText(testLine);
+        if (metrics.width > maxWidth && n > 0) {
+          ctx.fillText(line.trim(), 600, y);
+          line = words[n] + " ";
+          y += 34;
+        } else {
+          line = testLine;
+        }
+      }
+      if (line.trim()) {
+        ctx.fillText(line.trim(), 600, y);
+        y += 34;
+      }
+      if (p < paragraphs.length - 1) {
+        y += 10;
       }
     }
-    ctx.fillText(line, 600, y);
 
     // 7. Event & Sender Footer
     const isGreeting = state.cardRole === "greeting";
@@ -4886,6 +7191,7 @@
     dom.templateSelect.addEventListener("change", (e) => {
       const templateId = e.target.value;
       state.template = templateId;
+      invalidateShareUrl();
       if (TEMPLATE_PRESETS[templateId] && TEMPLATE_PRESETS[templateId].role) {
         setCardRole(TEMPLATE_PRESETS[templateId].role, true);
       }
@@ -4894,6 +7200,7 @@
 
     dom.recipientInput.addEventListener("input", (e) => {
       state.recipient = e.target.value;
+      invalidateShareUrl();
       if (state.recipient.trim()) {
         dom.errRecipient.classList.add("hidden");
       }
@@ -4902,46 +7209,55 @@
 
     dom.titleInput.addEventListener("input", (e) => {
       state.title = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.milestoneInput.addEventListener("input", (e) => {
       state.milestone = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.messageInput.addEventListener("input", (e) => {
       state.message = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.senderInput.addEventListener("input", (e) => {
       state.sender = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.dateInput.addEventListener("change", (e) => {
       state.date = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.timeInput.addEventListener("input", (e) => {
       state.time = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.locationInput.addEventListener("input", (e) => {
       state.location = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.rsvpInput.addEventListener("input", (e) => {
       state.rsvp = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
     dom.fontSelect.addEventListener("change", (e) => {
       state.font = e.target.value;
+      invalidateShareUrl();
       renderCard();
     });
 
@@ -4956,6 +7272,7 @@
     dom.toneRadios.forEach(radio => {
       radio.addEventListener("change", (e) => {
         state.tone = e.target.value;
+        invalidateShareUrl();
         renderCard();
       });
     });
@@ -5141,6 +7458,7 @@
       btn.addEventListener("click", (e) => {
         const templateId = btn.getAttribute("data-template-id");
         state.template = templateId;
+        invalidateShareUrl();
         dom.templateSelect.value = templateId;
         if (TEMPLATE_PRESETS[templateId] && TEMPLATE_PRESETS[templateId].role) {
           setCardRole(TEMPLATE_PRESETS[templateId].role, true);
@@ -5163,6 +7481,7 @@
       btn.addEventListener("click", () => {
         const templateId = btn.getAttribute("data-template-id");
         state.template = templateId;
+        invalidateShareUrl();
         dom.templateSelect.value = templateId;
         if (TEMPLATE_PRESETS[templateId]) {
           Object.assign(state, TEMPLATE_PRESETS[templateId]);
