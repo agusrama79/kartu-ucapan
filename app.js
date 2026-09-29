@@ -5033,23 +5033,24 @@
   }
 
   function encodeCardPayload(payload) {
-    const clean = {
-      t: payload.t || "ultah-echa",
-      r: payload.r || "",
-      h: payload.h || "",
-      m: payload.m || "",
-      msg: payload.msg || "",
-      s: payload.s || "",
-      d: payload.d || "",
-      tm: payload.tm || "",
-      l: payload.l || "",
-      rsvp: payload.rsvp || "",
-      f: payload.f || "font-playfair",
-      role: payload.role || "invitation"
-    };
+    const t = payload.t || "ultah-echa";
+    const preset = TEMPLATE_PRESETS[t] || TEMPLATE_PRESETS["ultah-echa"] || {};
+
+    // Delta encoding: hanya simpan atribut yang diubah pengguna agar URL sangat pendek & tahan potongan chat
+    const clean = { t };
+    if (payload.r && payload.r !== preset.recipient) clean.r = payload.r;
+    if (payload.h && payload.h !== preset.title) clean.h = payload.h;
+    if (payload.m && payload.m !== preset.milestone) clean.m = payload.m;
+    if (payload.msg && payload.msg !== preset.message) clean.msg = payload.msg;
+    if (payload.s && payload.s !== preset.sender) clean.s = payload.s;
+    if (payload.d && payload.d !== preset.date) clean.d = payload.d;
+    if (payload.tm && payload.tm !== preset.time) clean.tm = payload.tm;
+    if (payload.l && payload.l !== preset.location) clean.l = payload.l;
+    if (payload.rsvp && payload.rsvp !== preset.rsvp) clean.rsvp = payload.rsvp;
+    if (payload.f && payload.f !== preset.font && payload.f !== "font-playfair") clean.f = payload.f;
+    if (payload.role && payload.role !== preset.role) clean.role = payload.role;
 
     if (Array.isArray(payload.photos) && payload.photos.length > 0) {
-      // Hanya sertakan foto ringan (URL eksternal atau SVG ringkas) agar URL tidak terpotong oleh WhatsApp
       clean.photos = payload.photos
         .filter(p => p && typeof p === "object" && typeof p.url === "string")
         .filter(p => p.url.startsWith("http") || p.url.length < 1500)
@@ -5239,24 +5240,27 @@
 
       if (!data) return false;
 
-      // Sinkronisasi data ke state aplikasi dengan validasi ketat
-      if (data.t && typeof data.t === "string") {
-        state.template = TEMPLATE_PRESETS[data.t] ? data.t : "ultah-echa";
-      }
-      if (data.r != null) state.recipient = String(data.r).slice(0, 100);
-      if (data.h != null) state.title = String(data.h).slice(0, 120);
-      if (data.m != null) state.milestone = String(data.m).slice(0, 120);
-      if (data.msg != null) state.message = String(data.msg).slice(0, 1500);
-      if (data.s != null) state.sender = String(data.s).slice(0, 100);
-      if (data.d != null) state.date = String(data.d).slice(0, 20);
-      if (data.tm != null) state.time = String(data.tm).slice(0, 50);
-      if (data.l != null) state.location = String(data.l).slice(0, 150);
-      if (data.rsvp != null) state.rsvp = String(data.rsvp).slice(0, 250);
+      // Sinkronisasi data ke state aplikasi dengan validasi ketat & pemulihan preset bawaan (Delta Decoding)
+      const templateKey = (data.t && TEMPLATE_PRESETS[data.t]) ? data.t : "ultah-echa";
+      const preset = TEMPLATE_PRESETS[templateKey] || {};
+
+      state.template = templateKey;
+      state.recipient = (data.r != null && data.r !== "") ? String(data.r).slice(0, 100) : (preset.recipient || "");
+      state.title = (data.h != null && data.h !== "") ? String(data.h).slice(0, 120) : (preset.title || "");
+      state.milestone = (data.m != null && data.m !== "") ? String(data.m).slice(0, 120) : (preset.milestone || "");
+      state.message = (data.msg != null && data.msg !== "") ? String(data.msg).slice(0, 1500) : (preset.message || "");
+      state.sender = (data.s != null && data.s !== "") ? String(data.s).slice(0, 100) : (preset.sender || "");
+      state.date = (data.d != null && data.d !== "") ? String(data.d).slice(0, 20) : (preset.date || "");
+      state.time = (data.tm != null && data.tm !== "") ? String(data.tm).slice(0, 50) : (preset.time || "");
+      state.location = (data.l != null && data.l !== "") ? String(data.l).slice(0, 150) : (preset.location || "");
+      state.rsvp = (data.rsvp != null && data.rsvp !== "") ? String(data.rsvp).slice(0, 250) : (preset.rsvp || "");
       if (data.f && typeof data.f === "string") {
         const allowedFonts = ["font-playfair", "font-sans", "font-serif", "font-cinzel", "font-cormorant", "font-dancing", "font-inter", "font-outfit", "font-poppins"];
-        state.font = allowedFonts.includes(data.f) ? data.f : "font-playfair";
+        state.font = allowedFonts.includes(data.f) ? data.f : (preset.font || "font-playfair");
+      } else {
+        state.font = preset.font || "font-playfair";
       }
-      if (data.role) state.cardRole = data.role === "greeting" ? "greeting" : "invitation";
+      state.cardRole = data.role ? (data.role === "greeting" ? "greeting" : "invitation") : (preset.role || "invitation");
 
       const rawPhotos = Array.isArray(data.photos) ? data.photos : (Array.isArray(data.p) ? data.p : null);
       if (rawPhotos) {
