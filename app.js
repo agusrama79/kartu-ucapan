@@ -4072,6 +4072,9 @@
 
     // 9. Sync Dramatic View (Ala Ultah-Echa)
     syncDramaticViewWithState();
+
+    // 10. Sync browser address bar with current card state
+    syncBrowserUrlWithCard();
   }
 
   function blowCandle() {
@@ -4663,6 +4666,7 @@
         photos: state.photos || []
       };
       localStorage.setItem("karsa-last-created-card", JSON.stringify(payload));
+      syncBrowserUrlWithCard();
     } catch (e) {}
   }
 
@@ -5013,10 +5017,67 @@
   // =========================================================================
   // 8. URL Serialization & Deserialization
   // =========================================================================
+  // 8. URL Serialization & Deserialization
+  // =========================================================================
   let cachedShortUrl = null;
+  let urlSyncTimeout = null;
 
   function invalidateShareUrl() {
     cachedShortUrl = null;
+  }
+
+  function getCleanBaseUrl() {
+    let url = window.location.origin + window.location.pathname;
+    url = url.replace(/\/index\.html$/i, "");
+    return url.replace(/\/+$/, "") + "/";
+  }
+
+  function encodeCardPayload(payload) {
+    const clean = {
+      t: payload.t || "ultah-echa",
+      r: payload.r || "",
+      h: payload.h || "",
+      m: payload.m || "",
+      msg: payload.msg || "",
+      s: payload.s || "",
+      d: payload.d || "",
+      tm: payload.tm || "",
+      l: payload.l || "",
+      rsvp: payload.rsvp || "",
+      f: payload.f || "font-playfair",
+      role: payload.role || "invitation"
+    };
+
+    if (Array.isArray(payload.photos) && payload.photos.length > 0) {
+      // Hanya sertakan foto ringan (URL eksternal atau SVG ringkas) agar URL tidak terpotong oleh WhatsApp
+      clean.photos = payload.photos
+        .filter(p => p && typeof p === "object" && typeof p.url === "string")
+        .filter(p => p.url.startsWith("http") || p.url.length < 1500)
+        .slice(0, 6);
+    }
+
+    const jsonStr = JSON.stringify(clean);
+    const bytes = new TextEncoder().encode(jsonStr);
+    let binary = "";
+    for (let i = 0; i < bytes.length; i++) {
+      binary += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+
+  function decodeCardPayload(b64Str) {
+    if (!b64Str || typeof b64Str !== "string") return null;
+    let cleanB64 = b64Str.trim().replace(/-/g, "+").replace(/_/g, "/");
+    while (cleanB64.length % 4 !== 0) {
+      cleanB64 += "=";
+    }
+    const binary = atob(cleanB64);
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i++) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+    const jsonStr = new TextDecoder().decode(bytes);
+    return JSON.parse(jsonStr);
   }
 
   function generateSharePayload() {
@@ -5035,7 +5096,33 @@
       role: state.cardRole,
       photos: state.photos || []
     };
-    return encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(payload)))));
+    return encodeCardPayload(payload);
+  }
+
+  function getShareableURL() {
+    if (cachedShortUrl) return cachedShortUrl;
+    const baseUrl = getCleanBaseUrl();
+    const payload = {
+      t: state.template,
+      r: state.recipient,
+      h: state.title,
+      m: state.milestone,
+      msg: state.message,
+      s: state.sender,
+      d: state.date,
+      tm: state.time,
+      l: state.location,
+      rsvp: state.rsvp,
+      f: state.font,
+      role: state.cardRole,
+      photos: state.photos || []
+    };
+    try {
+      const urlSafeB64 = encodeCardPayload(payload);
+      return `${baseUrl}?card=${urlSafeB64}`;
+    } catch (e) {
+      return baseUrl;
+    }
   }
 
   async function getOrSaveShareableURL() {
@@ -5059,18 +5146,11 @@
       localStorage.setItem("karsa-last-created-card", JSON.stringify(payload));
     } catch (e) {}
 
-    // 1. URL-Safe Base64 Fallback (tanpa '=', penggantian + jadi - dan / jadi _)
-    let urlSafeB64 = "";
-    try {
-      const jsonStr = JSON.stringify(payload);
-      const b64 = btoa(unescape(encodeURIComponent(jsonStr)));
-      urlSafeB64 = b64.replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-    } catch (e) {}
-
-    const baseUrl = window.location.href.split("#")[0].split("?")[0].replace(/\/+$/, "") + "/";
+    const baseUrl = getCleanBaseUrl();
+    const urlSafeB64 = encodeCardPayload(payload);
     const fallbackUrl = `${baseUrl}?card=${urlSafeB64}`;
 
-    // 2. Simpan ke Backend Server untuk Tautan Pendek Bersih & Tahan Potongan WhatsApp
+    // Coba simpan ke server backend jika backend lokal/serverless aktif
     try {
       const response = await fetch("/api/card/save", {
         method: "POST",
@@ -5084,39 +5164,24 @@
           return cachedShortUrl;
         }
       }
-    } catch (err) {
-      console.warn("Gagal menyimpan kartu ke server, beralih ke fallback base64 URL-safe:", err);
-    }
+    } catch (err) {}
 
+    cachedShortUrl = fallbackUrl;
     return fallbackUrl;
   }
 
-  function getShareableURL() {
-    if (cachedShortUrl) return cachedShortUrl;
-    const baseUrl = window.location.href.split("#")[0].split("?")[0].replace(/\/+$/, "") + "/";
-    const payload = {
-      t: state.template,
-      r: state.recipient,
-      h: state.title,
-      m: state.milestone,
-      msg: state.message,
-      s: state.sender,
-      d: state.date,
-      tm: state.time,
-      l: state.location,
-      rsvp: state.rsvp,
-      f: state.font,
-      role: state.cardRole,
-      photos: state.photos || []
-    };
-    try {
-      const jsonStr = JSON.stringify(payload);
-      const b64 = btoa(unescape(encodeURIComponent(jsonStr)));
-      const urlSafeB64 = b64.replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-      return `${baseUrl}?card=${urlSafeB64}`;
-    } catch (e) {
-      return baseUrl;
-    }
+  function syncBrowserUrlWithCard() {
+    if (state.isRecipientView) return;
+    if (!state.recipient || !state.recipient.trim()) return;
+    clearTimeout(urlSyncTimeout);
+    urlSyncTimeout = setTimeout(() => {
+      try {
+        const shareUrl = getShareableURL();
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, "", shareUrl);
+        }
+      } catch (e) {}
+    }, 350);
   }
 
   async function loadStateFromURL() {
@@ -5143,7 +5208,7 @@
         }
       }
 
-      // 2. Fallback cek parameter base64 (?card=... atau #card=...)
+      // 2. Cek parameter base64 (?card=... atau hash #card=...)
       if (!data) {
         let raw = urlObj.searchParams.get("card");
         if (!raw && window.location.href.includes("?card=")) {
@@ -5156,19 +5221,25 @@
         }
 
         if (raw) {
-          raw = raw.split("&")[0].split("#")[0];
-          let cleanB64 = decodeURIComponent(raw).replace(/ /g, "+").replace(/-/g, "+").replace(/_/g, "/");
-          while (cleanB64.length % 4 !== 0) {
-            cleanB64 += "=";
+          try {
+            data = decodeCardPayload(raw);
+          } catch (err1) {
+            console.warn("Mencoba fallback legacy decoder base64:", err1);
+            try {
+              let cleanLegacy = raw.replace(/ /g, "+").replace(/-/g, "+").replace(/_/g, "/");
+              while (cleanLegacy.length % 4 !== 0) cleanLegacy += "=";
+              const jsonLegacy = decodeURIComponent(escape(atob(cleanLegacy)));
+              data = JSON.parse(jsonLegacy);
+            } catch (err2) {
+              console.error("Gagal mendecode data kartu:", err2);
+            }
           }
-          const jsonStr = decodeURIComponent(escape(atob(cleanB64)));
-          data = JSON.parse(jsonStr);
         }
       }
 
       if (!data) return false;
 
-      // Sinkronisasi data ke state aplikasi dengan validasi & sanitasi ketat
+      // Sinkronisasi data ke state aplikasi dengan validasi ketat
       if (data.t && typeof data.t === "string") {
         state.template = TEMPLATE_PRESETS[data.t] ? data.t : "ultah-echa";
       }
@@ -5254,31 +5325,65 @@
     state.isRecipientView = true;
     document.body.classList.add("recipient-mode");
 
-    // Sembunyikan elemen pembuat kartu, navbar, katalog & studio editor
-    if (dom.recipientBanner) dom.recipientBanner.classList.add("hidden");
-    const editorSec = document.getElementById("studio-editor");
-    if (editorSec) editorSec.classList.add("hidden");
+    // Jika template adalah ultah-echa, tampilkan pengalaman undangan dramatis ala ultah-echa
+    if (state.template === "ultah-echa") {
+      document.body.classList.add("recipient-dramatic-mode");
+      document.body.classList.remove("recipient-card-mode");
 
-    // Pastikan tombol atau banner pemilih mode tidak pernah ada di halaman penerima
-    document.querySelectorAll("#btn-toggle-dramatic-role, #btn-switch-dramatic-role, #dramatic-role-banner, .floating-role-btn, .role-switch-btn").forEach(el => el.remove());
+      if (dom.recipientBanner) dom.recipientBanner.classList.add("hidden");
+      const editorSec = document.getElementById("studio-editor");
+      if (editorSec) editorSec.classList.add("hidden");
 
-    // Tampilkan Tampilan Undangan Dramatis Ala Echa
-    if (dom.dramaticInvitationView) dom.dramaticInvitationView.classList.remove("hidden");
-    if (dom.dramaticFloatingControls) dom.dramaticFloatingControls.classList.remove("hidden");
-    if (dom.btnCloseDramaticPreview) dom.btnCloseDramaticPreview.classList.add("hidden");
+      document.querySelectorAll("#btn-toggle-dramatic-role, #btn-switch-dramatic-role, #dramatic-role-banner, .floating-role-btn, .role-switch-btn").forEach(el => el.remove());
 
-    // Sinkronkan seluruh data kartu ke tampilan undangan dramatis
-    syncDramaticViewWithState();
-    initDramaticCountdown();
+      if (dom.dramaticInvitationView) dom.dramaticInvitationView.classList.remove("hidden");
+      if (dom.dramaticFloatingControls) dom.dramaticFloatingControls.classList.remove("hidden");
+      if (dom.btnCloseDramaticPreview) dom.btnCloseDramaticPreview.classList.add("hidden");
 
-    // Buka amplop modal pembuka segel lilin interaktif untuk penerima
-    openDramaticInvitationModal();
+      syncDramaticViewWithState();
+      initDramaticCountdown();
+      openDramaticInvitationModal();
+    } else {
+      // Untuk 217 Template Lainnya: Tampilkan Kartu Tematik Penuh dengan Amplop Interaktif
+      document.body.classList.add("recipient-card-mode");
+      document.body.classList.remove("recipient-dramatic-mode");
+
+      if (dom.dramaticInvitationView) dom.dramaticInvitationView.classList.add("hidden");
+      if (dom.dramaticFloatingControls) dom.dramaticFloatingControls.classList.add("hidden");
+      if (dom.envelopeModal) dom.envelopeModal.classList.add("hidden");
+
+      // Tampilkan banner notifikasi penerima
+      if (dom.recipientBanner) {
+        dom.recipientBanner.classList.remove("hidden");
+        if (dom.bannerRecipientName) dom.bannerRecipientName.textContent = state.recipient || "Sahabat";
+        if (dom.bannerSenderName) {
+          const rawSender = state.sender ? state.sender.replace(/^Dari:\s*/i, "").trim() : "";
+          dom.bannerSenderName.textContent = rawSender || "Pengirim";
+          const senderWrap = document.getElementById("banner-sender-wrap");
+          if (senderWrap) senderWrap.style.display = rawSender ? "inline" : "none";
+        }
+      }
+
+      // Pastikan editor-section aktif dan terpusat untuk menampilkan kanvas kartu
+      const editorSec = document.getElementById("studio-editor");
+      if (editorSec) editorSec.classList.remove("hidden");
+
+      state.isEnvelopeOpened = true;
+      renderCard();
+      updateRecipientOpenButton(true);
+
+      // Jalankan perayaan pembuka kartu
+      setTimeout(() => {
+        playCelebrationChime();
+        launchConfetti();
+      }, 300);
+    }
 
     window.scrollTo({ top: 0, behavior: "instant" });
   }
 
   function exitRecipientMode(target = "catalog") {
-    document.body.classList.remove("recipient-mode");
+    document.body.classList.remove("recipient-mode", "recipient-card-mode", "recipient-dramatic-mode");
     state.isRecipientView = false;
     closeDramaticPreview();
     if (dom.recipientBanner) dom.recipientBanner.classList.add("hidden");

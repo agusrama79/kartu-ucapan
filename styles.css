@@ -22484,12 +22484,10 @@ body.recipient-mode {
   background-image: radial-gradient(circle at 50% 35%, var(--surface-card) 0%, var(--bg-canvas) 92%);
 }
 
-/* Sembunyikan TOTAL seluruh navbar, banner, header, hero, katalog, langkah, FAQ, footer, form editor, toolbar, floating buttons, aksi pembuat */
+/* Sembunyikan bagian navbar, hero, katalog, langkah, FAQ, footer, toolbar pada mode penerima */
 body.recipient-mode .site-header,
-body.recipient-mode #recipient-banner,
 body.recipient-mode .hero-section,
 body.recipient-mode .catalog-section,
-body.recipient-mode .editor-section,
 body.recipient-mode .steps-section,
 body.recipient-mode .faq-section,
 body.recipient-mode .site-footer,
@@ -22504,6 +22502,53 @@ body.recipient-mode #btn-close-dramatic-preview {
   display: none !important;
 }
 
+/* Sembunyikan elemen banner/editor saat mode dramatis aktif */
+body.recipient-mode.recipient-dramatic-mode #recipient-banner,
+body.recipient-mode.recipient-dramatic-mode .editor-section {
+  display: none !important;
+}
+
+/* Mode Kartu Standar untuk 217 Template Tematik Lainnya */
+body.recipient-mode.recipient-card-mode .dramatic-invitation-view,
+body.recipient-mode.recipient-card-mode .dramatic-floating-controls,
+body.recipient-mode.recipient-card-mode .envelope-modal-overlay {
+  display: none !important;
+}
+
+body.recipient-mode.recipient-card-mode #recipient-banner {
+  display: block !important;
+}
+
+body.recipient-mode.recipient-card-mode .editor-section {
+  display: block !important;
+  padding: var(--sp-6) var(--sp-4) var(--sp-20);
+  background: transparent;
+}
+
+body.recipient-mode.recipient-card-mode .editor-panel-form,
+body.recipient-mode.recipient-card-mode .preview-toolbar,
+body.recipient-mode.recipient-card-mode .preview-actions-bar,
+body.recipient-mode.recipient-card-mode .export-note {
+  display: none !important;
+}
+
+body.recipient-mode.recipient-card-mode .editor-workspace {
+  grid-template-columns: 1fr !important;
+  max-width: 680px !important;
+  margin: 0 auto !important;
+}
+
+body.recipient-mode.recipient-card-mode .editor-panel-preview {
+  position: static !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+body.recipient-mode.recipient-card-mode .recipient-actions-bar {
+  display: block !important;
+  margin-top: var(--sp-6);
+}
+
 body.recipient-mode #main-content {
   width: 100%;
   max-width: 100%;
@@ -22512,7 +22557,7 @@ body.recipient-mode #main-content {
   display: block;
 }
 
-body.recipient-mode .dramatic-invitation-view {
+body.recipient-mode.recipient-dramatic-mode .dramatic-invitation-view {
   display: block !important;
   width: 100%;
   max-width: 820px;
@@ -22522,11 +22567,11 @@ body.recipient-mode .dramatic-invitation-view {
   animation: recipientViewEntrance 450ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-body.recipient-mode .dramatic-floating-controls {
+body.recipient-mode.recipient-dramatic-mode .dramatic-floating-controls {
   display: flex !important;
 }
 
-body.recipient-mode .envelope-modal-overlay {
+body.recipient-mode.recipient-dramatic-mode .envelope-modal-overlay {
   display: flex;
 }
 
