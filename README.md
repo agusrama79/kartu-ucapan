@@ -1,12 +1,12 @@
 # KarsaKartu — Pembuat Undangan & Kartu Ucapan Digital Personal
 
-Aplikasi web interaktif pembuat undangan dan kartu ucapan digital modern dengan **118 template tematik berkarakter**, efek visual FX dinamis, kustomisasi studio langsung, serta fitur simpan dan bagikan link secara instan.
+Aplikasi web interaktif pembuat undangan dan kartu ucapan digital modern dengan **218 template tematik berkarakter**, efek visual FX dinamis, kustomisasi studio langsung, serta fitur simpan dan bagikan link secara instan.
 
 ---
 
 ## ✨ Fitur Utama
 
-1. **118 Template Tematik Unik:**
+1. **218 Template Tematik Unik:**
    - **Kategori Kartu Ucapan:** Ulang tahun, kelulusan, anniversary, hari raya (Idul Fitri, Natal, Imlek), ucapan terima kasih, lekas sembuh, apresiasi sahabat, dan pencapaian karir.
    - **Kategori Undangan Acara:** Pernikahan adat & modern, pertunangan, aqiqah, syukuran rumah baru, pesta ulang tahun, peluncuran produk, gala dinner, webinar, reuni, dan workshop.
 2. **Animasi & Visual FX Dinamis:**
