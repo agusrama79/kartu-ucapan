@@ -3315,18 +3315,18 @@
   // 2. Application State
   // =========================================================================
   const state = {
-    template: "ultah-echa",
-    recipient: "Echa Tersayang",
-    title: "Happy Birthday",
-    milestone: "Spesial Untuk Sahabat Terbaik 🌸",
-    message: "Di hari yang begitu istimewa ini, aku cuma mau mengucapkan terima kasih yang sebesar-besarnya karena kamu sudah hadir di dunia dan menjadi sahabat yang luar biasa buat aku. Terima kasih untuk setiap tawa lepas kita, sesi curhat larut malam, dan saling menguatkan di kala rapuh. Semoga senantiasa dilimpahkan kesehatan, kebahagiaan tanpa akhir, kelapangan rezeki, dan kemudahan dalam meraih semua impian yang sedang kamu perjuangkan! Tetaplah jadi Echa yang ceria, rendah hati, dan bersinar apa adanya 💕",
-    sender: "Dari: Sahabat Terbaikmu 💕",
-    date: "2026-10-19",
-    time: "15:00 WIB",
-    location: "The Garden Pavilion & Cafe, Joyville",
-    rsvp: "Kehadiran dan senyum bahagiamu adalah hadiah terindah.",
-    font: "font-playfair",
-    tone: "rose",
+    template: "ultah-ceria",
+    recipient: "Amanda Putri",
+    title: "Selamat Ulang Tahun",
+    milestone: "Semoga Hari-Harimu Penuh Warna 🌻",
+    message: "Selamat bertambah usia sahabat terbaikku! Semoga di usia yang baru ini, setiap langkahmu dipenuhi dengan kebahagiaan, kesehatan yang prima, dan pencapaian impian yang kian gemilang.",
+    sender: "Dari: Rangga & Sahabat 💕",
+    date: "2026-08-15",
+    time: "19:00 WIB",
+    location: "Grand Ballroom Hotel Harmoni, Jakarta",
+    rsvp: "Konfirmasi kehadiran via WhatsApp sebelum 10 Agustus 2026.",
+    font: "font-sans",
+    tone: "amber",
     cardRole: "invitation",
     confettiEnabled: true,
     soundEnabled: true,
@@ -3490,6 +3490,7 @@
     // Dramatic Mode & Envelope Modal Elements (Ala Ultah-Echa)
     envelopeModal: document.getElementById("envelopeModal"),
     envelopeCover: document.getElementById("envelopeCover"),
+    btnCloseEnvelopeModal: document.getElementById("btn-close-envelope-modal"),
     btnOpenDramaticInvitation: document.getElementById("btn-open-dramatic-invitation"),
     envelopeModalName: document.getElementById("envelope-modal-name"),
     envelopeModalBadge: document.getElementById("envelope-modal-badge"),
@@ -4072,9 +4073,6 @@
 
     // 9. Sync Dramatic View (Ala Ultah-Echa)
     syncDramaticViewWithState();
-
-    // 10. Sync browser address bar with current card state
-    syncBrowserUrlWithCard();
   }
 
   function blowCandle() {
@@ -4666,7 +4664,6 @@
         photos: state.photos || []
       };
       localStorage.setItem("karsa-last-created-card", JSON.stringify(payload));
-      syncBrowserUrlWithCard();
     } catch (e) {}
   }
 
@@ -4965,7 +4962,7 @@
   }
 
   function syncFormWithState() {
-    dom.templateSelect.value = state.template || "ultah-echa";
+    dom.templateSelect.value = state.template || "ultah-ceria";
     dom.recipientInput.value = state.recipient || "";
     dom.titleInput.value = state.title || "";
     dom.milestoneInput.value = state.milestone || "";
@@ -5034,8 +5031,8 @@
   }
 
   function encodeCardPayload(payload) {
-    const t = payload.t || "ultah-echa";
-    const preset = TEMPLATE_PRESETS[t] || TEMPLATE_PRESETS["ultah-echa"] || {};
+    const t = payload.t || "ultah-ceria";
+    const preset = TEMPLATE_PRESETS[t] || TEMPLATE_PRESETS["ultah-ceria"] || {};
 
     // Delta encoding: hanya simpan atribut yang diubah pengguna agar URL sangat pendek & tahan potongan chat
     const clean = { t };
@@ -5199,17 +5196,11 @@
   }
 
   function syncBrowserUrlWithCard() {
-    if (state.isRecipientView) return;
-    if (!state.recipient || !state.recipient.trim()) return;
-    clearTimeout(urlSyncTimeout);
-    urlSyncTimeout = setTimeout(() => {
-      try {
-        const shareUrl = getShareableURL();
-        if (window.history && window.history.replaceState) {
-          window.history.replaceState(null, "", shareUrl);
-        }
-      } catch (e) {}
-    }, 350);
+    // JANGAN PERNAH timpa window.history.replaceState secara otomatis saat mode pembuatan kartu!
+    // Penimpaan otomatis ini mencemari address bar browser sehingga navigasi anchor (#studio-editor, #katalog)
+    // disalahartikan sebagai tautan penerima dan mengunci user ke kartu contoh.
+    // Tautan kartu hanya dibagikan secara eksplisit saat menekan tombol "Salin Tautan" atau "WhatsApp".
+    return;
   }
 
   async function loadStateFromURL() {
@@ -5306,25 +5297,16 @@
         }
       }
 
-      // 3. Jaminan Mode Penerima: Jika URL memiliki parameter c / card namun gagal terambil / terpotong oleh chat,
-      // jangan pernah membuang penerima ke dashboard editor! Sediakan fallback ucapan perayaan yang anggun.
-      const hasUrlParam = Boolean(shortId || urlObj.searchParams.has("card") || window.location.href.includes("?card=") || window.location.href.includes("?c="));
-      if (!data && hasUrlParam) {
-        data = {
-          t: "ultah-echa",
-          r: "Sahabat Teristimewa",
-          h: "Selamat Ulang Tahun",
-          m: "Spesial Untukmu 🌸",
-          msg: "Semoga di hari yang begitu istimewa dan penuh kebahagiaan ini, seluruh doa baik, kesehatan, keberkahan, dan senyuman senantiasa menyertaimu!",
-          s: "Dari: Sahabat Terbaikmu 💕",
-          role: "invitation"
-        };
+      if (!data) {
+        // Jika ada parameter card/c tapi tidak valid atau korup, bersihkan URL agar tidak mengganggu navigasi editor
+        if (window.history && window.history.replaceState && (urlObj.searchParams.has("card") || urlObj.searchParams.has("c") || urlObj.searchParams.has("id"))) {
+          window.history.replaceState({}, document.title, window.location.pathname);
+        }
+        return false;
       }
 
-      if (!data) return false;
-
       // Sinkronisasi data ke state aplikasi dengan validasi ketat & pemulihan preset bawaan (Delta Decoding)
-      const templateKey = (data.t && TEMPLATE_PRESETS[data.t]) ? data.t : "ultah-echa";
+      const templateKey = (data.t && TEMPLATE_PRESETS[data.t]) ? data.t : "ultah-ceria";
       const preset = TEMPLATE_PRESETS[templateKey] || {};
 
       state.template = templateKey;
@@ -5517,6 +5499,9 @@
       showToast("Selamat datang di Katalog Template! Pilih desain untuk membuat kartu Anda sendiri.", "info");
     } else if (target === "editor") {
       if (editorSec) editorSec.scrollIntoView({ behavior: "smooth" });
+      if (window.innerWidth <= 991) {
+        setMobileStudioView("form");
+      }
       showToast("Studio Editor aktif. Anda dapat mengubah teks dan rincian kartu.", "info");
     }
   }
@@ -7246,18 +7231,69 @@
   }
 
   // =========================================================================
+  // 11b. Core Template Application Engine
+  // =========================================================================
+  function applyTemplate(templateId, shouldScroll = true) {
+    if (!templateId) return;
+
+    // 1. Jika saat ini sedang dalam mode penerima atau mode dramatis, keluar ke editor
+    if (state.isRecipientView || document.body.classList.contains("recipient-mode") || document.body.classList.contains("recipient-dramatic-mode")) {
+      exitRecipientMode("editor");
+    }
+
+    state.template = templateId;
+    const preset = TEMPLATE_PRESETS[templateId];
+
+    if (preset) {
+      // Terapkan data preset template agar pengguna langsung mendapatkan contoh teks & gaya yang relevan
+      state.recipient = preset.recipient || "Sahabat";
+      state.title = preset.title || "Selamat";
+      state.milestone = preset.milestone || "";
+      state.message = preset.message || "";
+      state.sender = preset.sender || "";
+      state.date = preset.date || "";
+      state.time = preset.time || "";
+      state.location = preset.location || "";
+      state.rsvp = preset.rsvp || "";
+      state.font = preset.font || "font-playfair";
+      state.tone = preset.tone || "original";
+      state.cardRole = preset.role || "invitation";
+      if (preset.role) {
+        setCardRole(preset.role, true);
+      }
+    }
+
+    if (dom.templateSelect) {
+      dom.templateSelect.value = templateId;
+    }
+
+    state.isEnvelopeOpened = true;
+    invalidateShareUrl();
+    syncFormWithState();
+
+    if (window.innerWidth <= 991) {
+      setMobileStudioView("form");
+    }
+
+    if (shouldScroll) {
+      const editorSection = document.getElementById("studio-editor");
+      if (editorSection) {
+        editorSection.classList.remove("hidden");
+        editorSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    const templateName = (preset && (preset.title || preset.milestone)) ? (preset.title || templateId) : templateId;
+    showToast(`Template "${templateName}" siap digunakan!`, "success");
+  }
+
+  // =========================================================================
   // 12. Event Listeners & Interactive Bindings
   // =========================================================================
   function initEventListeners() {
     // Two-way synchronization on form inputs
     dom.templateSelect.addEventListener("change", (e) => {
-      const templateId = e.target.value;
-      state.template = templateId;
-      invalidateShareUrl();
-      if (TEMPLATE_PRESETS[templateId] && TEMPLATE_PRESETS[templateId].role) {
-        setCardRole(TEMPLATE_PRESETS[templateId].role, true);
-      }
-      renderCard();
+      applyTemplate(e.target.value, false);
     });
 
     dom.recipientInput.addEventListener("input", (e) => {
@@ -7518,40 +7554,62 @@
     // Catalog Template Cards Use & Preview Buttons
     document.querySelectorAll(".btn-use-template").forEach(btn => {
       btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
         const templateId = btn.getAttribute("data-template-id");
-        state.template = templateId;
-        invalidateShareUrl();
-        dom.templateSelect.value = templateId;
-        if (TEMPLATE_PRESETS[templateId] && TEMPLATE_PRESETS[templateId].role) {
-          setCardRole(TEMPLATE_PRESETS[templateId].role, true);
-        }
-        renderCard();
+        applyTemplate(templateId, true);
+      });
+    });
 
-        if (window.innerWidth <= 991) {
-          setMobileStudioView("form");
+    // Seluruh kartu katalog dapat diklik untuk memilih template secara instan
+    document.querySelectorAll(".template-card").forEach(card => {
+      card.addEventListener("click", (e) => {
+        if (e.target.closest(".btn-preview-template") || e.target.closest(".btn-use-template")) {
+          return;
         }
-
-        const editorSection = document.getElementById("studio-editor");
-        if (editorSection) {
-          editorSection.scrollIntoView({ behavior: "smooth" });
+        const templateId = card.getAttribute("data-template-id");
+        if (templateId) {
+          applyTemplate(templateId, true);
         }
-        showToast("Desain template berhasil dipilih!", "success");
       });
     });
 
     document.querySelectorAll(".btn-preview-template").forEach(btn => {
-      btn.addEventListener("click", () => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
         const templateId = btn.getAttribute("data-template-id");
+        if (!templateId) return;
+
+        if (state.isRecipientView || document.body.classList.contains("recipient-mode") || document.body.classList.contains("recipient-dramatic-mode")) {
+          exitRecipientMode("editor");
+        }
+
         state.template = templateId;
-        invalidateShareUrl();
-        dom.templateSelect.value = templateId;
-        if (TEMPLATE_PRESETS[templateId]) {
-          Object.assign(state, TEMPLATE_PRESETS[templateId]);
-          setCardRole(TEMPLATE_PRESETS[templateId].role || "invitation", true);
-          syncFormWithState();
+        const preset = TEMPLATE_PRESETS[templateId];
+        if (preset) {
+          state.recipient = preset.recipient || "Sahabat";
+          state.title = preset.title || "Selamat";
+          state.milestone = preset.milestone || "";
+          state.message = preset.message || "";
+          state.sender = preset.sender || "";
+          state.date = preset.date || "";
+          state.time = preset.time || "";
+          state.location = preset.location || "";
+          state.rsvp = preset.rsvp || "";
+          state.font = preset.font || "font-playfair";
+          state.tone = preset.tone || "original";
+          state.cardRole = preset.role || "invitation";
+          if (preset.role) {
+            setCardRole(preset.role, true);
+          }
+        }
+        if (dom.templateSelect) {
+          dom.templateSelect.value = templateId;
         }
         state.isEnvelopeOpened = true;
-        renderCard();
+        invalidateShareUrl();
+        syncFormWithState();
 
         if (window.innerWidth <= 991) {
           setMobileStudioView("preview");
@@ -7563,8 +7621,43 @@
         }
         launchConfetti();
         playCelebrationChime();
+        const previewName = (preset && (preset.title || preset.milestone)) ? preset.title : templateId;
+        showToast(`Pratinjau template "${previewName}"`, "info");
       });
     });
+
+    // Tombol dan Tautan Navigasi "Mulai Buat Kartu" & "Studio Editor"
+    document.querySelectorAll('a[href="#studio-editor"], .header-cta-btn').forEach(el => {
+      el.addEventListener("click", (e) => {
+        if (state.isRecipientView || document.body.classList.contains("recipient-mode") || document.body.classList.contains("recipient-dramatic-mode")) {
+          e.preventDefault();
+          exitRecipientMode("editor");
+        } else {
+          const editorSec = document.getElementById("studio-editor");
+          if (editorSec) {
+            editorSec.classList.remove("hidden");
+            if (window.innerWidth <= 991) {
+              setMobileStudioView("form");
+            }
+          }
+        }
+      });
+    });
+
+    document.querySelectorAll('a[href="#katalog"]').forEach(el => {
+      el.addEventListener("click", (e) => {
+        if (state.isRecipientView || document.body.classList.contains("recipient-mode") || document.body.classList.contains("recipient-dramatic-mode")) {
+          e.preventDefault();
+          exitRecipientMode("catalog");
+        }
+      });
+    });
+
+    if (dom.btnCloseEnvelopeModal) {
+      dom.btnCloseEnvelopeModal.addEventListener("click", () => {
+        exitRecipientMode("catalog");
+      });
+    }
 
     // Interactive Wax Seal & Envelope Button
     dom.btnOpenSeal.addEventListener("click", () => {
@@ -7772,10 +7865,11 @@
         if (state.isDramaticPreview) {
           closeDramaticPreview();
         }
+        if (dom.envelopeModal && !dom.envelopeModal.classList.contains("hidden")) {
+          exitRecipientMode("catalog");
+        }
       }
     });
-
-
 
     // Window resize handler for canvas
     window.addEventListener("resize", () => {
@@ -7784,9 +7878,29 @@
 
     // Handle URL changes dynamically without full reload
     window.addEventListener("hashchange", async () => {
-      if (await loadStateFromURL()) {
-        syncFormWithState();
-        activateRecipientMode();
+      const hash = window.location.hash || "";
+      // Hanya muat data kartu jika hash secara eksplisit berisi parameter data kartu
+      if (hash.includes("card=") || hash.includes("c=") || hash.includes("id=")) {
+        if (await loadStateFromURL()) {
+          syncFormWithState();
+          activateRecipientMode();
+        }
+      } else if (hash === "#studio-editor" || hash.startsWith("#studio")) {
+        if (state.isRecipientView || document.body.classList.contains("recipient-mode") || document.body.classList.contains("recipient-dramatic-mode")) {
+          exitRecipientMode("editor");
+        } else {
+          const editorSec = document.getElementById("studio-editor");
+          if (editorSec) {
+            editorSec.classList.remove("hidden");
+            if (window.innerWidth <= 991) {
+              setMobileStudioView("form");
+            }
+          }
+        }
+      } else if (hash === "#katalog" || hash.startsWith("#katalog")) {
+        if (state.isRecipientView || document.body.classList.contains("recipient-mode") || document.body.classList.contains("recipient-dramatic-mode")) {
+          exitRecipientMode("catalog");
+        }
       }
     });
   }
@@ -7912,7 +8026,23 @@
     if (hasSharedData) {
       activateRecipientMode();
     } else {
-      document.body.classList.remove("recipient-mode");
+      document.body.classList.remove("recipient-mode", "recipient-card-mode", "recipient-dramatic-mode");
+      state.isRecipientView = false;
+      const editorSec = document.getElementById("studio-editor");
+      if (editorSec) editorSec.classList.remove("hidden");
+      const catalogSec = document.getElementById("katalog");
+      if (catalogSec) catalogSec.classList.remove("hidden");
+      const heroSec = document.querySelector(".hero-section");
+      if (heroSec) heroSec.classList.remove("hidden");
+      const stepsSec = document.getElementById("cara-kerja");
+      if (stepsSec) stepsSec.classList.remove("hidden");
+      const faqSec = document.getElementById("faq");
+      if (faqSec) faqSec.classList.remove("hidden");
+      const siteHeader = document.querySelector(".site-header");
+      if (siteHeader) siteHeader.classList.remove("hidden");
+      const siteFooter = document.querySelector(".site-footer");
+      if (siteFooter) siteFooter.classList.remove("hidden");
+
       if (dom.recipientBanner) dom.recipientBanner.classList.add("hidden");
       if (dom.dramaticInvitationView) dom.dramaticInvitationView.classList.add("hidden");
       if (dom.envelopeModal) dom.envelopeModal.classList.add("hidden");

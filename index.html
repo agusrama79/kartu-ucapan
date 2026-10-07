@@ -71,6 +71,10 @@
   <!-- ================= DRAMATIC ENVELOPE MODAL OVERLAY (ALA ULTAH-ECHA) ================= -->
   <div id="envelopeModal" class="envelope-modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="envelope-modal-heading">
     <div id="envelopeCover" class="envelope-modal-box">
+      <button id="btn-close-envelope-modal" type="button" class="envelope-modal-close-btn" aria-label="Tutup amplop dan jelajahi KarsaKartu" title="Tutup">
+        <span aria-hidden="true">&times;</span>
+      </button>
+
       <!-- Wax seal badge with beating heart animation -->
       <div class="envelope-modal-stamp animate-heartbeat" aria-hidden="true">
         💌
@@ -7086,9 +7090,9 @@
                   </label>
                   <select id="input-template-select" class="form-select" required>
                     <optgroup label="Kategori Ulang Tahun">
-                      <option value="ultah-echa" selected>Ultah Echa — Special Sahabat & Sweet Celebration (Dramatis)</option>
+                      <option value="ultah-echa">Ultah Echa — Special Sahabat & Sweet Celebration (Dramatis)</option>
                       <option value="tiup-lilin-kue">Pesta Tart & Tiup Lilin (Interaktif Tiup Lilin)</option>
-                      <option value="ultah-ceria">Pesta Emas & Mentari (Ceria & Hangat)</option>
+                      <option value="ultah-ceria" selected>Pesta Emas & Mentari (Ceria & Hangat)</option>
                       <option value="ultah-elegan">Midnight Noir & Gold (Elegan & Berwibawa)</option>
                       <option value="ultah-pastel">Pastel Rose & Berry (Lembut & Manis)</option>
                       <option value="sakura-blossom">Sakura Hanami Spring (Puitis & Kelopak Melayang)</option>
